@@ -534,7 +534,7 @@ body {
 	padding: 0px 0 20px 0px;
 	margin: 0px;
 	font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #333;
+	color: #999;
 	font-weight: normal;
 	background: #252525;
 	background-attachment: fixed !important;
@@ -554,7 +554,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
-  margin: 0 0 20px;
+	margin: 0 0 2px;
+	padding: 30px;
 }
 
 h1, h2, h3 {
@@ -785,15 +786,14 @@ dt {
 }
 
 section {
-	max-width: 650px;
-	padding: 30px 30px 5px 0px;
-	margin: 30px 10;
-
+	max-width: 400px;
+	padding: 30px 30px 30px 30px;
+	margin: 6px 1;
 	margin-top: 70px;
-
-	margin-top: 30px;
+	margin-top: 10px;
 
 }
+
 section #title {
 	border: 0;
 	outline: none;
