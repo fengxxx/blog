@@ -1,3 +1,4 @@
+
 if(typeof Object.create!=="function"){
 Object.create=function(o){
 function F(){
@@ -776,4 +777,3 @@ document.execCommand("BackgroundImageCache",false,true);
 }
 catch(e){
 }
-

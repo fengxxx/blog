@@ -378,7 +378,9 @@ figure {
  * Corrects margin displayed oddly in IE6/7
  */
 form {
-  margin: 0;
+	margin: 0;
+	padding: 10px 10px 10px 10px;
+	border: 1px;
 }
 
 /*
@@ -414,11 +416,13 @@ button,
 input,
 select,
 textarea {
-  font-size: 100%;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+	font-size: 100%;
+	/* 2 */
   vertical-align: baseline;
+
+
+
+
   /* 3 */
   *vertical-align: middle;
   /* 3 */
@@ -429,7 +433,8 @@ textarea {
  */
 button,
 input {
-  line-height: normal;
+	line-height: normal;
+	height: auto;
   /* 1 */
 }
 
@@ -556,6 +561,8 @@ h1, h2, h3, h4, h5, h6 {
 p, ul, ol, table, pre, dl {
 	margin: 0 0 2px;
 	padding: 30px;
+	border-top: 1px;
+	border-bottom: 1px;
 }
 
 h1, h2, h3 {
