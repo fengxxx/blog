@@ -613,7 +613,7 @@ strong {
 }
 
 .wrapper {
-	max-width: 650px;
+	max-width: 600px;
 	margin: 0 auto;
 	position: relative;
 	padding: 10px 10px;
@@ -786,7 +786,7 @@ dt {
 }
 
 section {
-	max-width: 400px;
+	max-width: 600px;
 	padding: 30px 30px 30px 30px;
 	margin: 6px 1;
 	margin-top: 70px;
