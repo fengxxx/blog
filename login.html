@@ -1,7 +1,12 @@
 <!doctype html>
 <html>
   <head>
-  　
+ 	<script src="http://fw.qq.com/ipaddress" type="text/javascript"></script>
+	<script type="text/javascript">
+    //<![CDATA[
+    alert(IPData.join('\n'));
+    //]]>
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>悲莫悲兮生別離 樂莫樂兮新相知</title>
@@ -43,6 +48,7 @@ h1,h2,h3,h4,h5,h6 {
 
   
   </section>
+  <section>
 <FORM METHOD=POST ACTION="">
   <p>姓名
     <input name="Name" type="text" size="14" id="input_N"> 
@@ -56,10 +62,11 @@ h1,h2,h3,h4,h5,h6 {
     <input name="bt" type="button" id="bt" onClick="login()" value="登录">
     </p>
   <p>
-    <input name="input_IP" type="text" size="14" id="input_Ip">
+    <input name="input_IP" type="text" size="14" id="input_Ip" value= IPAddr >
     <input name="bt2" type="button" id="bt_IP" onClick="GetLocalIPAddress()" value="获取ip">
   </p>
 </FORM>
+</section>
 </div>
      
 <p>
