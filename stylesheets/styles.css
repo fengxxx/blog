@@ -448,11 +448,52 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  cursor: pointer;
-  /* 1 */
+	cursor: pointer;
+	/* 1 */
   -webkit-appearance: button;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* 2 */
   *overflow: visible;
+	color: #CCC;
+	font: bold 11px Tahoma,Calibri,Verdana,Geneva,sans-serif;
+
+
+
+
+
+
+
+
+
+
+	background: images/nav-bg
+.gif;
+	direction: ltr;
   /* 3 */
 }
 
@@ -563,6 +604,7 @@ p, ul, ol, table, pre, dl {
 	padding: 30px;
 	border-top: 1px;
 	border-bottom: 1px;
+	font-family: 60;
 }
 
 h1, h2, h3 {
@@ -863,4 +905,10 @@ section #title .credits.right {
   nav {
     display: none;
   }
+}
+.button {
+	letter-spacing: 30px;
+	width: 90px;
+	height: 60px;
+	font-size: 30px;
 }
