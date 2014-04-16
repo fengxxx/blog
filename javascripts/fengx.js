@@ -1,6 +1,7 @@
 var name;
 var password;
 
+
 function fengx(){
 	//alert("false")
 	input_N.value="曾哥";
