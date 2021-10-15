@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article version="1.0" id="60c1e6bf0e81524c2276a62a">
+  <languages>
+    <lang>en_GB</lang>
+    <lang>zh_CN</lang>
+    <lang>zh_TW</lang>
+  </languages>
+  <pubdate>2021-06-10T10:26:14+00:00</pubdate>
+  <ads_disabled>false</ads_disabled>
+  <headline>
+    <title lang="en_GB">Body Builders - Future Works</title>
+    <title lang="zh_CN">身体构建者 #未来工作系列</title>
+    <title lang="zh_TW">身體構建者 #未來工作系列</title>
+    <fly_title lang="en_GB">The Economist film</fly_title>
+    <fly_title lang="zh_CN">经济学人视频</fly_title>
+    <fly_title lang="zh_TW">經濟學人視頻</fly_title>
+    <section lang="en_GB"/>
+    <section lang="zh_CN"/>
+    <section lang="zh_TW"/>
+  </headline>
+  <body>
+    <rubric lang="en_GB">As our elderly population grows, so will the global bionics industry extending the life of aging limbs and restoring the function of damaged ones.</rubric>
+    <rubric lang="zh_CN">老龄人口不断增加，能够延长肢体使用年限、修复人体受损功能的全球仿生业也在迅速发展。</rubric>
+    <rubric lang="zh_TW">老齡人口不斷增加，能夠延長肢體使用年限、修復人體受損功能的全球仿生業也在迅速發展。</rubric>
+    <content>
+      <image>
+        <url lang="en_GB">images/1623320255.PNG</url>
+        <url lang="zh_CN">images/1623320255.PNG</url>
+        <url lang="zh_TW">images/1623320255.PNG</url>
+        <caption lang="en_GB"/>
+        <caption lang="zh_CN"/>
+        <caption lang="zh_TW"/>
+      </image>
+      <video>
+        <url lang="en_GB">https://businessreviewglobal-cdn.com/video/60a72e8a0e815235bd0f8bd4/2021-06-10/1623320252/1623320252_Playlist.m3u8</url>
+        <url lang="zh_CN">https://businessreviewglobal-cdn.com/video/60a72e8a0e815235bd0f8bd4/2021-06-10/1623320252/1623320252_Playlist.m3u8</url>
+        <url lang="zh_TW">https://businessreviewglobal-cdn.com/video/60a72e8a0e815235bd0f8bd4/2021-06-10/1623320252/1623320252_Playlist.m3u8</url>
+      </video>
+    </content>
+    <idioms/>
+  </body>
+</article>

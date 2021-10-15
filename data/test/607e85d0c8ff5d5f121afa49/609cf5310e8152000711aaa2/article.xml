@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article version="1.0" id="609cf5310e8152000711aaa2">
+  <languages>
+    <lang>en_GB</lang>
+    <lang>zh_CN</lang>
+    <lang>zh_TW</lang>
+  </languages>
+  <pubdate>2021-05-18T05:57:57+00:00</pubdate>
+  <ads_disabled>false</ads_disabled>
+  <headline>
+    <title lang="en_GB">The future of shopping - trailer</title>
+    <title lang="zh_CN">购物的未来 - 预告片</title>
+    <title lang="zh_TW">購物的未來 - 預告片</title>
+    <fly_title lang="en_GB">The Economist film</fly_title>
+    <fly_title lang="zh_CN">经济学人视频</fly_title>
+    <fly_title lang="zh_TW">經濟學人視頻</fly_title>
+    <section lang="en_GB"/>
+    <section lang="zh_CN"/>
+    <section lang="zh_TW"/>
+  </headline>
+  <body>
+    <rubric lang="en_GB">Over 4 billion dollars were spent buying stuff online in 2020, almost a third more than a year ago.</rubric>
+    <rubric lang="zh_CN">2020年全球线上消费超过40亿美元，比2019年增加近三分之一。</rubric>
+    <rubric lang="zh_TW">2020年全球線上消費超過40億美元，比2019年增加近三分之一。</rubric>
+    <content>
+      <image>
+        <url lang="en_GB">images/may_video.png</url>
+        <url lang="zh_CN">images/may_video.png</url>
+        <url lang="zh_TW">images/may_video.png</url>
+        <caption lang="en_GB"/>
+        <caption lang="zh_CN"/>
+        <caption lang="zh_TW"/>
+      </image>
+      <video>
+        <url lang="en_GB">https://businessreviewglobal-cdn.com/video/607e85d0c8ff5d5f121afa49/2021-05-13/1620899121/1620899121_Playlist.m3u8</url>
+        <url lang="zh_CN">https://businessreviewglobal-cdn.com/video/607e85d0c8ff5d5f121afa49/2021-05-13/1620899121/1620899121_Playlist.m3u8</url>
+        <url lang="zh_TW">https://businessreviewglobal-cdn.com/video/607e85d0c8ff5d5f121afa49/2021-05-13/1620899121/1620899121_Playlist.m3u8</url>
+      </video>
+    </content>
+    <idioms/>
+  </body>
+</article>

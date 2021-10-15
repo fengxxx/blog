@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article version="1.0" id="5fc8c6cd61cb4156e67ae488">
+  <languages>
+    <lang>en_GB</lang>
+    <lang>zh_CN</lang>
+    <lang>zh_TW</lang>
+  </languages>
+  <pubdate>2020-12-03T11:15:03+00:00</pubdate>
+  <ads_disabled>false</ads_disabled>
+  <headline>
+    <title lang="en_GB">Disrupting Corruption - trailer</title>
+    <title lang="zh_CN">抗击腐败的数据科技（预告）</title>
+    <title lang="zh_TW">抗擊腐敗的數據科技（預告）</title>
+    <fly_title lang="en_GB">The Economist film</fly_title>
+    <fly_title lang="zh_CN">经济学人视频</fly_title>
+    <fly_title lang="zh_TW">經濟學人視頻</fly_title>
+    <section lang="en_GB"/>
+    <section lang="zh_CN"/>
+    <section lang="zh_TW"/>
+  </headline>
+  <body>
+    <rubric lang="en_GB">Corruption costs the world nearly 3 trillion dollars every year, but in some parts of the world there’s a renewed drive to disrupt corruption - with new technologies.</rubric>
+    <rubric lang="zh_CN">腐败每年令全球损失近3万亿美元，但在世界某些地方，科技已开始成为颠覆腐败的新动力。</rubric>
+    <rubric lang="zh_TW">腐敗每年令全球損失近3萬億美元，但在世界某些地方，科技已開始成為顛覆腐敗的新動力。</rubric>
+    <content>
+      <image>
+        <url lang="en_GB">images/1606993613.PNG</url>
+        <url lang="zh_CN">images/1606993613.PNG</url>
+        <url lang="zh_TW">images/1606993613.PNG</url>
+        <caption lang="en_GB"/>
+        <caption lang="zh_CN"/>
+        <caption lang="zh_TW"/>
+      </image>
+      <video>
+        <url lang="en_GB">https://businessreviewglobal-cdn.com/video/5fa693ce61cb4179e6662fe5/2020-12-03/1606993612/1606993612_Playlist.m3u8</url>
+        <url lang="zh_CN">https://businessreviewglobal-cdn.com/video/5fa693ce61cb4179e6662fe5/2020-12-03/1606993612/1606993612_Playlist.m3u8</url>
+        <url lang="zh_TW">https://businessreviewglobal-cdn.com/video/5fa693ce61cb4179e6662fe5/2020-12-03/1606993612/1606993612_Playlist.m3u8</url>
+      </video>
+    </content>
+    <idioms/>
+  </body>
+</article>

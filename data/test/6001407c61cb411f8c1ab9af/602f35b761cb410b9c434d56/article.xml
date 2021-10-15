@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article version="1.0" id="602f35b761cb410b9c434d56">
+  <languages>
+    <lang>en_GB</lang>
+    <lang>zh_CN</lang>
+    <lang>zh_TW</lang>
+  </languages>
+  <pubdate>2021-02-23T13:25:04+00:00</pubdate>
+  <ads_disabled>false</ads_disabled>
+  <headline>
+    <title lang="en_GB">Doing the do</title>
+    <title lang="zh_CN">使命必达</title>
+    <title lang="zh_TW">使命必達</title>
+    <fly_title lang="en_GB">Making vaccines</fly_title>
+    <fly_title lang="zh_CN">制造疫苗</fly_title>
+    <fly_title lang="zh_TW">製造疫苗</fly_title>
+    <section lang="en_GB">Science and technology</section>
+    <section lang="zh_CN"/>
+    <section lang="zh_TW"/>
+  </headline>
+  <body>
+    <rubric lang="en_GB">Vaccines must now be produced on a scale greater than ever before. That is hard</rubric>
+    <rubric lang="zh_CN">现在必须把疫苗的产能提高到前所未有的水平。这很难</rubric>
+    <rubric lang="zh_TW">現在必須把疫苗的產能提高到前所未有的水平。這很難</rubric>
+    <content>
+      <image>
+        <url lang="en_GB">images/20210206_STP001.png</url>
+        <url lang="zh_CN">images/20210206_STP001.png</url>
+        <url lang="zh_TW">images/20210206_STP001.png</url>
+        <caption lang="en_GB"/>
+        <caption lang="zh_CN"/>
+        <caption lang="zh_TW"/>
+      </image>
+      <paragraph>
+        <copy lang="en_GB">NINE VACCINES against covid-19 have already been approved in one jurisdiction or another, with many more in various stages of preparation. That this has happened within a year of the illness coming to the world’s attention is remarkable. But it is one thing to design and test vaccines. It is another to make them at sufficient scale to generate the billions of doses needed to vaccinate the world’s population, and to do so at such speed that the rate of inoculation can outpace the spread and possible mutation of the virus.</copy>
+        <copy lang="zh_CN">目前已有九种新冠疫苗在不同的司法辖区获批上市，处在研发的各种阶段的疫苗更是多得很。在新冠肺炎引发全球关注的一年内就取得了如此进展，是件了不起的事情。但是，疫苗的设计和试验是一回事，足够的产能又是另一回事——不仅要生产给全世界人口接种所需的几十亿剂疫苗，接种速度也要超过病毒传播和可能变异的速度才行。</copy>
+        <copy lang="zh_TW">目前已有九種新冠疫苗在不同的司法轄區獲批上市，處在研發的各種階段的疫苗更是多得很。在新冠肺炎引發全球關注的一年內就取得了如此進展，是件了不起的事情。但是，疫苗的設計和試驗是一回事，足夠的產能又是另一回事——不僅要生產給全世界人口接種所需的幾十億劑疫苗，接種速度也要超過病毒傳播和可能變異的速度才行。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">Broadly, there are two ways of making antiviral vaccines. One, tried and trusted, involves growing, in tanks called bioreactors, cell cultures that act as hosts for viruses which are then used in one way or another to make the vaccine in question. Cells grown this way can be of many types—insect, human kidney, monkey kidney, hamster ovary—as can the resulting vaccines. These may be weakened or killed versions of the virus to be protected against, or live viruses of a different and less-dangerous sort that carry a gene or two abstracted from the target virus, or even just isolated target-viral proteins. The point is that the vaccine should introduce into the body, or induce that body to make, something which the immune system can learn to recognise and attack if the real target virus should ever turn up.</copy>
+        <copy lang="zh_CN">制造抗病毒疫苗的方法大体上有两种。一种是已经经过检验的可靠方法，在被称为生物反应器的容器中进行细胞培养，让这些细胞成为病毒的宿主，然后以各种方法用这些病毒来制造相关疫苗。用这种方式培育的细胞可以有很多种——昆虫、人类肾脏、猴子肾脏、仓鼠卵巢等等。由此制造出的疫苗也多种多样。它们可能是已经减毒或灭活的目标病毒，也可能是携带有从目标病毒中提取的一两个基因的另一种不那么危险的活病毒，甚至可能只是分离出来的目标病毒蛋白。其中的关键在于疫苗要把某种物质引入人体，或诱导人体制造那种物质，这样一旦真正的目标病毒出现，免疫系统已经学会识别并攻击它们。</copy>
+        <copy lang="zh_TW">製造抗病毒疫苗的方法大體上有兩種。一種是已經經過檢驗的可靠方法，在被稱為生物反應器的容器中進行細胞培養，讓這些細胞成為病毒的宿主，然後以各種方法用這些病毒來製造相關疫苗。用這種方式培育的細胞可以有很多種——昆蟲、人類腎臟、猴子腎臟、倉鼠卵巢等等。由此製造出的疫苗也多種多樣。它們可能是已經減毒或滅活的目標病毒，也可能是攜帶有從目標病毒中提取的一兩個基因的另一種不那麼危險的活病毒，甚至可能只是分離出來的目標病毒蛋白。其中的關鍵在於疫苗要把某種物質引入人體，或誘導人體製造那種物質，這樣一旦真正的目標病毒出現，免疫系統已經學會識別並攻擊它們。</copy>
+      </paragraph>
+      <subtitle>
+        <copy lang="en_GB">In with the new</copy>
+        <copy lang="zh_CN">推陈出新</copy>
+        <copy lang="zh_TW">推陳出新</copy>
+      </subtitle>
+      <paragraph>
+        <copy lang="en_GB">The alternative method, developed recently and employed to make the mRNA vaccines, such as those of Moderna and Pfizer, that the pandemic has stimulated the invention of, requires culturing cells only at the beginning of the process. mRNA is the substance that carries instructions about how to make a protein from a cell’s DNA to the molecular factories, known as ribosomes, which do the actual manufacturing. In the case of covid-19, the instructions in question generate spike, a protein found on the surfaces of particles of SARS-CoV-2, the virus that causes this illness. Suitably packaged and delivered, such mRNA can induce some of the body cells of the inoculee to turn out spike, which the immune system then learns to recognise. To make this type of vaccine you therefore have to generate lots of the relevant mRNA.</copy>
+        <copy lang="zh_CN">另一种方法在新近开发和部署，用于制造mRNA疫苗这种新冠疫情刺激下的发明，比如莫德纳（Moderna）和辉瑞（Pfizer）生产的那些。这种方法只需要在开始阶段进行细胞培养。mRNA这种物质把如何用一个细胞的DNA制造出一种蛋白质的指令递送给名为核糖体的分子工厂，核糖体负责蛋白质的实际生产。就新冠病毒而言，所递送的指令是生成刺突蛋白，这是一种在新冠病毒表面发现的蛋白质。这样的mRNA经过恰当的包装和递送，可以诱导受种者的一些体细胞产生刺突蛋白，之后免疫系统学会识别它。因此，要制造这种疫苗，必须生成大量相关的mRNA。</copy>
+        <copy lang="zh_TW">另一種方法在新近開發和部署，用於製造mRNA疫苗這種新冠疫情刺激下的發明，比如莫德納（Moderna）和輝瑞（Pfizer）生產的那些。這種方法只需要在開始階段進行細胞培養。mRNA這種物質把如何用一個細胞的DNA製造出一種蛋白質的指令遞送給名為核糖體的分子工廠，核糖體負責蛋白質的實際生產。就新冠病毒而言，所遞送的指令是生成刺突蛋白，這是一種在新冠病毒表面發現的蛋白質。這樣的mRNA經過恰當的包裝和遞送，可以誘導受種者的一些體細胞產生刺突蛋白，之後免疫系統學會識別它。因此，要製造這種疫苗，必須生成大量相關的mRNA。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">That process does indeed start with cells, though they are bacterial cells, rather than those of animals. But it does not end with them. The bacteria used, normally a well-understood species called <i>E coli</i>, have spliced into them a DNA version of the part of the SARS-CoV-2 genome which describes spike. (Confusingly, as is true of many viruses, SARS-CoV-2’s actual genes are made of RNA.) The bacteria are then allowed to multiply for a few days before being broken open, their DNA filtered out, and the DNA versions of the spike gene extracted as what is known as a DNA template.</copy>
+        <copy lang="zh_CN">这种方法在开始时确实需要细胞培养，尽管它们是细菌细胞，而不是动物细胞。但在最后并不用到细胞。它采用的细菌通常是人们熟知的大肠杆菌，将新冠病毒基因组中表达刺突蛋白那部分的DNA拼接到这些细菌上。（令人困惑的是，和许多病毒一样，新冠病毒的真正基因是由RNA构成。）然后，让细菌繁殖几天，再把它们裂解，过滤出它们的DNA，从中提取刺突基因DNA作为所谓的DNA模板。</copy>
+        <copy lang="zh_TW">這種方法在開始時確實需要細胞培養，儘管它們是細菌細胞，而不是動物細胞。但在最後並不用到細胞。它採用的細菌通常是人們熟知的大腸桿菌，將新冠病毒基因組中表達刺突蛋白那部分的DNA拼接到這些細菌上。（令人困惑的是，和許多病毒一樣，新冠病毒的真正基因是由RNA構成。）然後，讓細菌繁殖幾天，再把它們裂解，過濾出它們的DNA，從中提取刺突基因DNA作為所謂的DNA模板。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">Once purified, this template is mixed with a soup of pertinent enzymes and fed molecules called nucleotides, the chemical “letters” of which RNA is composed. Thus supplied, the enzymes use the templates to run off appropriate mRNAs by the zillion. These are extracted and packaged into tiny, fatty bubbles to form the vaccine.</copy>
+        <copy lang="zh_CN">经过纯化后，该模板与一种相关的酶溶液混合，并被注入一种叫作核苷酸的分子——构成RNA的化学“字母”。这样，酶就用该模板复制出无数适用的mRNA。它们被提取出来，封装到微小的脂质体内，形成疫苗。</copy>
+        <copy lang="zh_TW">經過純化後，該模板與一種相關的酶溶液混合，並被注入一種叫作核苷酸的分子——構成RNA的化學“字母”。這樣，酶就用該模板複製出無數適用的mRNA。它們被提取出來，封裝到微小的脂質體內，形成疫苗。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">Both the cell-culture and the mRNA approaches have benefits and drawbacks. The former has the advantage of being well established. Versions of it go back to vaccine-making’s origins. But keeping cultured animal cells alive and healthy is a tricky business. A whole subfield of bioengineering is dedicated to this task. Vaccine-makers who rely on live cultures constantly struggle with yields. Using this method to make a lot of vaccine, fast, is hard.</copy>
+        <copy lang="zh_CN">细胞培养法和mRNA法各有利弊。前者的优点是技术成熟。这种方法可以追溯到疫苗制造的起源。但是，让培育的动物细胞保持存活和健康是件棘手的事情。生物工程学有一个分支就完全在研究这项工作。依赖活细胞培养的疫苗制造商一直都苦于如何提高产量。用这种方法快速生产出大量疫苗很难。</copy>
+        <copy lang="zh_TW">細胞培養法和mRNA法各有利弊。前者的優點是技術成熟。這種方法可以追溯到疫苗製造的起源。但是，讓培育的動物細胞保持存活和健康是件棘手的事情。生物工程學有一個分支就完全在研究這項工作。依賴活細胞培養的疫苗製造商一直都苦於如何提高產量。用這種方法快速生產出大量疫苗很難。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">It was difficulties of this sort that Pascal Soriot, boss of AstraZeneca, cited on January 26th in defence of his firm’s failure to provide vaccine supplies which the European Union claimed it had been promised. AstraZeneca is an Anglo-Swedish company that, in collaboration with Oxford University, created one of the first vaccines to be approved. As Mr Soriot told<i> La Repubblica</i>, an Italian newspaper, “You have glitches, you have scale-up problems. The best site we have produces three times more vaccine out of a batch than the lowest-producing site.”</copy>
+        <copy lang="zh_CN">在欧盟称阿斯利康（AstraZeneca）未按承诺的数量提供疫苗时，该公司的首席执行官帕斯卡尔·索里奥特（Pascal Soriot）1月26日就拿这类困难为自己辩护。这家英国和瑞典的合资公司与牛津大学合作，研制出了首批获批的疫苗之一。索里奥特对意大利《共和报》（La Repubblica）说：“这里出些小故障，那里又有增产的问题。我们产量最高的工厂一个批次生产的疫苗是产量最低的工厂的三倍。”</copy>
+        <copy lang="zh_TW">在歐盟稱阿斯利康（AstraZeneca）未按承諾的數量提供疫苗時，該公司的首席執行官帕斯卡爾·索里奧特（Pascal Soriot）1月26日就拿這類困難為自己辯護。這家英國和瑞典的合資公司與牛津大學合作，研製出了首批獲批的疫苗之一。索里奧特對意大利《共和報》（La Repubblica）說：“這裡出些小故障，那裡又有增產的問題。我們產量最高的工廠一個批次生產的疫苗是產量最低的工廠的三倍。”</copy>
+      </paragraph>
+      <subtitle>
+        <copy lang="en_GB">De-necking the bottles</copy>
+        <copy lang="zh_CN">消除瓶颈</copy>
+        <copy lang="zh_TW">消除瓶頸</copy>
+      </subtitle>
+      <paragraph>
+        <copy lang="en_GB">Maximising a bioreactor’s yield is as much an art as a science. The underlying health of the cells involved matters. So do environmental conditions at the manufacturing site. That AstraZeneca has not been able to meet its own production targets shows how hard it is to predict when the right balance of biology will be found. The company says it can take six to nine months to start a production site up from scratch, and that even this timetable is possible only by working with experienced partners and at an accelerated pace. At the moment, AstraZeneca is working with 25 manufacturing organisations in 15 countries to make its vaccine.</copy>
+        <copy lang="zh_CN">让生物反应器的产量最大化是一门科学，也是一门艺术。相关细胞的基本健康至关重要。生产场所的环境状况也一样。阿斯利康未能达到自己的生产目标这一点表明，要预测何时能找到生物作用机制上的平衡点非常难。阿斯利康表示，从零开始建设一个生产场所可能需要六到九个月的时间，就算是这个时间表，也只有与经验丰富的伙伴合作且加班加点才有可能实现。目前，阿斯利康正在与15个国家的25家生产机构合作生产疫苗。</copy>
+        <copy lang="zh_TW">讓生物反應器的產量最大化是一門科學，也是一門藝術。相關細胞的基本健康至關重要。生產場所的環境狀況也一樣。阿斯利康未能達到自己的生產目標這一點表明，要預測何時能找到生物作用機制上的平衡點非常難。阿斯利康表示，從零開始建設一個生產場所可能需要六到九個月的時間，就算是這個時間表，也只有與經驗豐富的夥伴合作且加班加點才有可能實現。目前，阿斯利康正在與15個國家的25家生產機構合作生產疫苗。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">Producing mRNA vaccines at scale has problems, too. The biggest is how to protect the mRNA molecules both from the environment they must travel through in order to reach the arm of their recipient, and from the recipient’s own body, which will attack them as they journey to the ribosomes which will transcribe them.</copy>
+        <copy lang="zh_CN">大规模生产mRNA疫苗也存在麻烦。最大的问题是如何在两方面保护好mRNA分子：在给接种者注射之前要避免受运输中环境的影响；在接种后要避免受接种者自身身体的影响，因为mRNA分子在到达转录它们的核糖体的过程中会受到接种者身体的攻击。</copy>
+        <copy lang="zh_TW">大規模生產mRNA疫苗也存在麻煩。最大的問題是如何在兩方面保護好mRNA分子：在給接種者注射之前要避免受運輸中環境的影響；在接種後要避免受接種者自身身體的影響，因為mRNA分子在到達轉錄它們的核糖體的過程中會受到接種者身體的攻擊。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">Protection from the environment is mainly a matter of having a strategically located set of refrigerators, known as a cold chain. Protection from the body, though, is where the fatty bubbles come in.</copy>
+        <copy lang="zh_CN">要免受环境影响，主要是要有一套全面战略布局的冷藏系统，也就是冷链。而要免受人体的攻击，就要靠脂质体。</copy>
+        <copy lang="zh_TW">要免受環境影響，主要是要有一套全面戰略布局的冷藏系統，也就是冷鏈。而要免受人體的攻擊，就要靠脂質體。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">Production of these bubbles was a cottage industry before the pandemic. A small Austrian firm, Polymun Scientific, is one of just a handful that can make them. Their main previous use was in niche cancer treatments. Scaling up their production, which is happening right now, has never been done before and adds uncertainty to the continued supply of mRNA vaccine.</copy>
+        <copy lang="zh_CN">新冠疫情爆发之前，脂质体的生产还处于家庭作坊模式。奥地利的小公司Polymun Scientific是为数不多的几家能够制造它们的公司之一。脂质体之前主要用于罕见癌症的治疗。目前它们的生产规模正在扩大，这是前所未有的操作，也给mRNA疫苗的持续供应增加了不确定性。</copy>
+        <copy lang="zh_TW">新冠疫情爆發之前，脂質體的生產還處於家庭作坊模式。奧地利的小公司Polymun Scientific是為數不多的幾家能夠製造它們的公司之一。脂質體之前主要用於罕見癌症的治療。目前它們的生產規模正在擴大，這是前所未有的操作，也給mRNA疫苗的持續供應增加了不確定性。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">There are other bottlenecks, too. In particular, the factories in which vaccines are made must be built to a high standard, known as GMP, for “Good Manufacturing Practice”. There is currently a shortage of GMP facilities. Andrey Zarur, boss of GreenLight Biosciences, a firm in Boston that is developing an mRNA vaccine, says his company has employees whose entire job, at present, is to work the phones trying to find GMP facilities in which to make their vaccine. There is, though, nothing available. He is therefore looking to buy firms whose vaccine candidates have turned out not to work, simply in order to acquire the facilities in question.</copy>
+        <copy lang="zh_CN">此外还有其他瓶颈。特别是疫苗生产工厂的建造必须符合很高的“良好生产规范”（GMP）标准。目前符合GMP标准的生产设施短缺。位于波士顿的GreenLight Biosciences公司正在研发mRNA疫苗。公司老板安德烈·扎鲁尔（Andrey Zarur）说，现在自己公司有些员工的全部工作就是打电话，为疫苗生产寻找符合GMP标准的设施。然而还一无所获。因此，他正在寻求收购那些所生产的候选疫苗已被证明无效的公司，纯粹就是为了获得相关设施。</copy>
+        <copy lang="zh_TW">此外還有其他瓶頸。特別是疫苗生產工廠的建造必須符合很高的“良好生產規範”（GMP）標準。目前符合GMP標準的生產設施短缺。位於波士頓的GreenLight Biosciences公司正在研發mRNA疫苗。公司老闆安德烈·扎魯爾（Andrey Zarur）說，現在自己公司有些員工的全部工作就是打電話，為疫苗生產尋找符合GMP標準的設施。然而還一無所獲。因此，他正在尋求收購那些所生產的候選疫苗已被證明無效的公司，純粹就是為了獲得相關設施。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">Supplies of raw materials such as nucleotides are also tight. According to Dr Zarur, Thermo Fisher, an American chemical-supplies company, has spent $200m on a new facility in Lithuania to make these molecules, though the firm itself would not confirm this.</copy>
+        <copy lang="zh_CN">核苷酸等原材料的供应也很紧张。扎鲁尔表示，美国化学制品公司赛默飞世尔（Thermo Fisher）已经在立陶宛投资了2亿美元，用于建设制造这些分子的设施，尽管该公司自己未证实此事。</copy>
+        <copy lang="zh_TW">核苷酸等原材料的供應也很緊張。扎魯爾表示，美國化學製品公司賽默飛世爾（Thermo Fisher）已經在立陶宛投資了2億美元，用於建設製造這些分子的設施，儘管該公司自己未證實此事。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">On top of all this, the transport and distribution of vaccines once they have been made presents yet further challenges, and concomitant potential for hold ups. Vaccines must be stored in special non-reactive glass vials. Some, such as the current version of Pfizer’s mRNA vaccine, must also be kept at extremely low temperatures, though that problem may go away soon. Drew Weissman, one of the inventors of mRNA-vaccine technology, says producers are now testing shots which are stable for three months when kept at 4°C.</copy>
+        <copy lang="zh_CN">除此之外，疫苗生产出来后，在运输和分发上又面对挑战，为此可能造成延迟。疫苗必须储存在不会引起化学反应的特制玻璃小药瓶中。有些疫苗，比如辉瑞目前的mRNA疫苗，还必须在极低的温度下保存，尽管这个问题可能很快就会解决。mRNA疫苗技术的发明者之一德鲁·韦斯曼（Drew Weissman）表示，生产商目前正在测试可在4°C下稳定保存三个月的疫苗。</copy>
+        <copy lang="zh_TW">除此之外，疫苗生產出來後，在運輸和分發上又面對挑戰，為此可能造成延遲。疫苗必須儲存在不會引起化學反應的特製玻璃小藥瓶中。有些疫苗，比如輝瑞目前的mRNA疫苗，還必須在極低的溫度下保存，儘管這個問題可能很快就會解決。mRNA疫苗技術的發明者之一德魯·韋斯曼（Drew Weissman）表示，生產商目前正在測試可在4°C下穩定保存三個月的疫苗。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">Once supply chains for both cell-culture and mRNA vaccines have been scaled up, and bottlenecks unblocked, the manufacturing processes may face a different test—how quickly they can produce new vaccines to deal with new viral variants as these emerge. The continued efficacy of approved vaccines against such variants is not guaranteed, and it may be necessary to make others.</copy>
+        <copy lang="zh_CN">一旦细胞培养疫苗和mRNA疫苗的供应链都得以扩大，瓶颈被消除，生产过程可能会面临另一个考验——在新的变异病毒出现时，在最短时间内生产出能够对抗它们的新疫苗。目前已批准的疫苗对这类变异病毒的持续有效性还不能保证，因此可能有必要制造其他疫苗。</copy>
+        <copy lang="zh_TW">一旦細胞培養疫苗和mRNA疫苗的供應鏈都得以擴大，瓶頸被消除，生產過程可能會面臨另一個考驗——在新的變異病毒出現時，在最短時間內生產出能夠對抗它們的新疫苗。目前已批准的疫苗對這類變異病毒的持續有效性還不能保證，因此可能有必要製造其他疫苗。</copy>
+      </paragraph>
+      <paragraph>
+        <copy lang="en_GB">Here, the mRNA approach may have an advantage. Its production systems will require a simple tweak—the dropping in at the start of a DNA template describing the new variant’s spike protein. Cell-culture systems, by contrast, will have to be rebuilt to some degree for every new variant they aim to vaccinate against.</copy>
+        <copy lang="zh_CN">在这点上，mRNA可能有优势。它的生产系统只需要稍作调整——在开始的时候插入表达新变异病毒的刺突蛋白的DNA模板。相比之下，细胞培养系统必须针对每一种新变异病毒做某种程度的重建，才能实现免疫。</copy>
+        <copy lang="zh_TW">在這點上，mRNA可能有優勢。它的生產系統只需要稍作調整——在開始的時候插入表達新變異病毒的刺突蛋白的DNA模板。相比之下，細胞培養系統必須針對每一種新變異病毒做某種程度的重建，才能實現免疫。</copy>
+      </paragraph>
+      <subtitle>
+        <copy lang="en_GB">Scale models</copy>
+        <copy lang="zh_CN">增产模式</copy>
+        <copy lang="zh_TW">增產模式</copy>
+      </subtitle>
+      <paragraph>
+        <copy lang="en_GB">Producers, such as those in China, who use older-fashioned cell-culture techniques, will have to recalibrate their entire operations. Newer systems, like AstraZeneca’s, which use cells specially designed so as not to be influenced by the new version of the spike gene in the viruses they are carrying, should be able to get on track in the time it takes to start a culture from scratch—about a month. For mRNA systems, Drs Weissman and Zarur say it would take a couple of months to go from new variant to large-scale vaccine production. If variants resistant to the current crop of vaccines do evolve, then that speed and certainty in making new vaccines to combat them will be essential. ■</copy>
+        <copy lang="zh_CN">使用老式细胞培养技术的生产商，比如中国的生产商，将不得不重新调整自己的整个操作。而阿斯利康等公司采用的较新方法使用的是经专门设计的细胞，并不受细胞携带的病毒中新刺突基因的影响，因此能在从零开始培养细胞所需的一个月左右的时间内步入正轨。至于mRNA方法，韦斯曼和扎鲁尔表示，从发现新变异病毒到大规模生产疫苗需要几个月的时间。如果对现有疫苗具有耐药性的变异病毒确实在进化，那么制造能抵御它们的新疫苗的速度和确定性将至关重要。</copy>
+        <copy lang="zh_TW">使用老式細胞培養技術的生產商，比如中國的生產商，將不得不重新調整自己的整個操作。而阿斯利康等公司採用的較新方法使用的是經專門設計的細胞，並不受細胞攜帶的病毒中新刺突基因的影響，因此能在從零開始培養細胞所需的一個月左右的時間內步入正軌。至於mRNA方法，韋斯曼和扎魯爾表示，從發現新變異病毒到大規模生產疫苗需要幾個月的時間。如果對現有疫苗具有耐藥性的變異病毒確實在進化，那麼製造能抵禦它們的新疫苗的速度和確定性將至關重要。</copy>
+      </paragraph>
+    </content>
+    <idioms/>
+  </body>
+</article>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article version="1.0" id="61553c520e22010c3504edb4">
+  <languages>
+    <lang>en_GB</lang>
+    <lang>zh_CN</lang>
+    <lang>zh_TW</lang>
+  </languages>
+  <pubdate>2021-09-30T04:27:28+00:00</pubdate>
+  <ads_disabled>false</ads_disabled>
+  <headline>
+    <title lang="en_GB">Smart cities: Boston</title>
+    <title lang="zh_CN">智慧城市：波士顿</title>
+    <title lang="zh_TW">智慧城市：波士頓</title>
+    <fly_title lang="en_GB">The Economist Film</fly_title>
+    <fly_title lang="zh_CN">经济学人视频</fly_title>
+    <fly_title lang="zh_TW">經濟學人視頻</fly_title>
+    <section lang="en_GB"/>
+    <section lang="zh_CN"/>
+    <section lang="zh_TW"/>
+  </headline>
+  <body>
+    <rubric lang="en_GB">American innovators are anticipating data-driven technologies that could help predict problems...before they even happen.</rubric>
+    <rubric lang="zh_CN">美国创新者希望由数据驱动的技术能够帮助预防社会问题...在它们尚未发生前。</rubric>
+    <rubric lang="zh_TW">美國創新者希望由數據驅動的技術能夠幫助預防社會問題...在它們尚未發生前。</rubric>
+    <content>
+      <image>
+        <url lang="en_GB">images/1632975954.png</url>
+        <url lang="zh_CN">images/1632975954.png</url>
+        <url lang="zh_TW">images/1632975954.png</url>
+        <caption lang="en_GB"/>
+        <caption lang="zh_CN"/>
+        <caption lang="zh_TW"/>
+      </image>
+      <video>
+        <url lang="en_GB">https://businessreviewglobal-cdn.com/video/61498ef7d6aacc20e84d2bd8/2021-09-30/1632975954/1632975954_Playlist.m3u8</url>
+        <url lang="zh_CN">https://businessreviewglobal-cdn.com/video/61498ef7d6aacc20e84d2bd8/2021-09-30/1632975954/1632975954_Playlist.m3u8</url>
+        <url lang="zh_TW">https://businessreviewglobal-cdn.com/video/61498ef7d6aacc20e84d2bd8/2021-09-30/1632975954/1632975954_Playlist.m3u8</url>
+      </video>
+    </content>
+    <idioms/>
+  </body>
+</article>

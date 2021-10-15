@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article version="1.0" id="60b89c290e81525d797ab065">
+  <languages>
+    <lang>en_GB</lang>
+    <lang>zh_CN</lang>
+    <lang>zh_TW</lang>
+  </languages>
+  <pubdate>2021-06-03T09:25:09+00:00</pubdate>
+  <ads_disabled>false</ads_disabled>
+  <headline>
+    <title lang="en_GB">Body Builders - part 1</title>
+    <title lang="zh_CN">身体构建者 #1</title>
+    <title lang="zh_TW">身體構建者 #1</title>
+    <fly_title lang="en_GB">The Economist film</fly_title>
+    <fly_title lang="zh_CN">经济学人视频</fly_title>
+    <fly_title lang="zh_TW">經濟學人視頻</fly_title>
+    <section lang="en_GB"/>
+    <section lang="zh_CN"/>
+    <section lang="zh_TW"/>
+  </headline>
+  <body>
+    <rubric lang="en_GB">Bionics is moving from sci-fi fantasy to the commercial market. In BODY BUILDERS we reveal the groundbreaking technology driving the new bionic industry.</rubric>
+    <rubric lang="zh_CN">仿生学正从科幻创意变为一个商业化的市场。在《身体构建者》中，一起看看驱动仿生产业的突破性技术。</rubric>
+    <rubric lang="zh_TW">仿生學正從科幻創意變為一個商業化的市場。在《身體構建者》中，一起看看驅動仿生產業的突破性技術。</rubric>
+    <content>
+      <image>
+        <url lang="en_GB">images/1622711337.PNG</url>
+        <url lang="zh_CN">images/1622711337.PNG</url>
+        <url lang="zh_TW">images/1622711337.PNG</url>
+        <caption lang="en_GB"/>
+        <caption lang="zh_CN"/>
+        <caption lang="zh_TW"/>
+      </image>
+      <video>
+        <url lang="en_GB">https://businessreviewglobal-cdn.com/video/60a72e8a0e815235bd0f8bd4/2021-06-03/1622711336/1622711336_Playlist.m3u8</url>
+        <url lang="zh_CN">https://businessreviewglobal-cdn.com/video/60a72e8a0e815235bd0f8bd4/2021-06-03/1622711336/1622711336_Playlist.m3u8</url>
+        <url lang="zh_TW">https://businessreviewglobal-cdn.com/video/60a72e8a0e815235bd0f8bd4/2021-06-03/1622711336/1622711336_Playlist.m3u8</url>
+      </video>
+    </content>
+    <idioms/>
+  </body>
+</article>
