@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article version="1.0" id="60a391ba0e81526b5264f144">
+  <languages>
+    <lang>en_GB</lang>
+    <lang>zh_CN</lang>
+    <lang>zh_TW</lang>
+  </languages>
+  <pubdate>2021-05-18T10:13:02+00:00</pubdate>
+  <ads_disabled>false</ads_disabled>
+  <headline>
+    <title lang="en_GB">The future of shopping</title>
+    <title lang="zh_CN">购物的未来</title>
+    <title lang="zh_TW">購物的未來</title>
+    <fly_title lang="en_GB">The Economist film</fly_title>
+    <fly_title lang="zh_CN">经济学人视频</fly_title>
+    <fly_title lang="zh_TW">經濟學人視頻</fly_title>
+    <section lang="en_GB"/>
+    <section lang="zh_CN"/>
+    <section lang="zh_TW"/>
+  </headline>
+  <body>
+    <rubric lang="en_GB">Shopping is going through a radical shift now and the pandemic has sped it up. Retailers have been forced to adapt and innovate. Leading the way in this revolution is China.</rubric>
+    <rubric lang="zh_CN">购物正在经历一场彻底的转变，而疫情加速了这一过程。零售商被迫适应和创新，引领这场零售革命的是中国。</rubric>
+    <rubric lang="zh_TW">購物正在經歷一場徹底的轉變，而疫情加速了這一過程。零售商被迫適應和創新，引領這場零售革命的是中國。</rubric>
+    <content>
+      <image>
+        <url lang="en_GB">images/1621332410.PNG</url>
+        <url lang="zh_CN">images/1621332410.PNG</url>
+        <url lang="zh_TW">images/1621332410.PNG</url>
+        <caption lang="en_GB"/>
+        <caption lang="zh_CN"/>
+        <caption lang="zh_TW"/>
+      </image>
+      <video>
+        <url lang="en_GB">https://businessreviewglobal-cdn.com/video/607e85d0c8ff5d5f121afa49/2021-05-18/1621332404/1621332404_Playlist.m3u8</url>
+        <url lang="zh_CN">https://businessreviewglobal-cdn.com/video/607e85d0c8ff5d5f121afa49/2021-05-18/1621332404/1621332404_Playlist.m3u8</url>
+        <url lang="zh_TW">https://businessreviewglobal-cdn.com/video/607e85d0c8ff5d5f121afa49/2021-05-18/1621332404/1621332404_Playlist.m3u8</url>
+      </video>
+    </content>
+    <idioms/>
+  </body>
+</article>

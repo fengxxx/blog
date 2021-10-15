@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article version="1.0" id="6049cb56757da400072f68fc">
+  <languages>
+    <lang>en_GB</lang>
+    <lang>zh_CN</lang>
+    <lang>zh_TW</lang>
+  </languages>
+  <pubdate>2021-03-11T07:53:10+00:00</pubdate>
+  <ads_disabled>false</ads_disabled>
+  <headline>
+    <title lang="en_GB">The great inflation mystery</title>
+    <title lang="zh_CN">解读通胀之谜</title>
+    <title lang="zh_TW">解讀通脹之謎</title>
+    <fly_title lang="en_GB">The Economist film</fly_title>
+    <fly_title lang="zh_CN">经济学人视频</fly_title>
+    <fly_title lang="zh_TW">經濟學人視頻</fly_title>
+    <section lang="en_GB"/>
+    <section lang="zh_CN"/>
+    <section lang="zh_TW"/>
+  </headline>
+  <body>
+    <rubric lang="en_GB">In the past two decades inflation has puzzled economists by remaining low in good times and bad. Could the pandemic cause it to rise?</rubric>
+    <rubric lang="zh_CN">过去20年里，通胀一直困扰着经济学家：无论经济是好是坏，通胀率总是保持在低位。新冠大流行会改变这一现象吗？</rubric>
+    <rubric lang="zh_TW">過去20年里，通脹一直困擾着經濟學家：無論經濟是好是壞，通脹率總是保持在低位。新冠大流行會改變這一現象嗎？</rubric>
+    <content>
+      <image>
+        <url lang="en_GB">images/1615448918.PNG</url>
+        <url lang="zh_CN">images/1615448918.PNG</url>
+        <url lang="zh_TW">images/1615448918.PNG</url>
+        <caption lang="en_GB"/>
+        <caption lang="zh_CN"/>
+        <caption lang="zh_TW"/>
+      </image>
+      <video>
+        <url lang="en_GB">https://businessreviewglobal-cdn.com/video/602f36ac61cb4148bb784a55/2021-03-11/1615448914/1615448914_Playlist.m3u8</url>
+        <url lang="zh_CN">https://businessreviewglobal-cdn.com/video/602f36ac61cb4148bb784a55/2021-03-11/1615448914/1615448914_Playlist.m3u8</url>
+        <url lang="zh_TW">https://businessreviewglobal-cdn.com/video/602f36ac61cb4148bb784a55/2021-03-11/1615448914/1615448914_Playlist.m3u8</url>
+      </video>
+    </content>
+    <idioms/>
+  </body>
+</article>

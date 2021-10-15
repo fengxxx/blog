@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article version="1.0" id="60e56ff80e81524ac87c6393">
+  <languages>
+    <lang>en_GB</lang>
+    <lang>zh_CN</lang>
+    <lang>zh_TW</lang>
+  </languages>
+  <pubdate>2021-07-16T07:17:54+00:00</pubdate>
+  <ads_disabled>false</ads_disabled>
+  <headline>
+    <title lang="en_GB">Will Covid kill globalization?</title>
+    <title lang="zh_CN">新冠会终结全球化吗？</title>
+    <title lang="zh_TW">新冠會終結全球化嗎？</title>
+    <fly_title lang="en_GB">The Economist film</fly_title>
+    <fly_title lang="zh_CN">经济学人视频</fly_title>
+    <fly_title lang="zh_TW">經濟學人視頻</fly_title>
+    <section lang="en_GB"/>
+    <section lang="zh_CN"/>
+    <section lang="zh_TW"/>
+  </headline>
+  <body>
+    <rubric lang="en_GB">Even without the pandemic, another pillar of globalization would be facing challenges – the flow of data across borders.</rubric>
+    <rubric lang="zh_CN">即使没有疫情大流行，全球化的另一大支柱也将面临挑战 -- 信息的跨境流动。</rubric>
+    <rubric lang="zh_TW">即使沒有疫情大流行，全球化的另一大支柱也將面臨挑戰 -- 信息的跨境流動。</rubric>
+    <content>
+      <image>
+        <url lang="en_GB">images/1625649144.PNG</url>
+        <url lang="zh_CN">images/1625649144.PNG</url>
+        <url lang="zh_TW">images/1625649144.PNG</url>
+        <caption lang="en_GB"/>
+        <caption lang="zh_CN"/>
+        <caption lang="zh_TW"/>
+      </image>
+      <video>
+        <url lang="en_GB">https://businessreviewglobal-cdn.com/video/60c305f50e81527b6315151c/2021-07-07/1625649135/1625649135_Playlist.m3u8</url>
+        <url lang="zh_CN">https://businessreviewglobal-cdn.com/video/60c305f50e81527b6315151c/2021-07-07/1625649135/1625649135_Playlist.m3u8</url>
+        <url lang="zh_TW">https://businessreviewglobal-cdn.com/video/60c305f50e81527b6315151c/2021-07-07/1625649135/1625649135_Playlist.m3u8</url>
+      </video>
+    </content>
+    <idioms/>
+  </body>
+</article>

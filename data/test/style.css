@@ -1,0 +1,113 @@
+.pubdate {
+	color: #b3b3b3;
+	margin-top: 2;
+}
+
+.pubdateIndex {
+	color: #b3b3b3;
+	margin: 0;
+	font-size: small;
+}
+
+.rubricIndex {
+    /*font-weight: bold;*/
+	margin: 1;
+	color: #b3b3b3;
+
+}
+
+.rubric {
+/*	font-size:large; 
+	margin-top: 2;*/
+    font-weight: bold;
+
+
+}
+
+.fly_titleIndex {
+	color:red;
+	font-size:large; 
+	margin-top: 2;
+	margin-bottom: 1;
+}
+
+.fly_title {
+    font-weight: bold;
+	color:red;
+	font-size:x-large; 
+	margin-top: 2;
+	margin-bottom: 1;
+}
+
+
+
+.titleL {
+	
+	width: 30%;
+}
+.titleR {
+	width: 70%;
+	text-decoration: none;
+
+}
+.titlePro {
+	display: inline-flex;
+	font-size:large; 
+
+}
+.titleIndex {
+	
+	margin-top: 1;
+	font-size:x-large; 
+	margin-bottom: 2;
+	text-decoration: none;
+
+	color: #000;
+
+}
+
+.title {
+	
+	margin-top: 1;
+	font-size:xx-large; 
+	margin-bottom: 20;
+
+}
+
+a{
+	/*padding-left: 5%;*/
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif
+}
+
+head{
+	font-size:large; 
+	padding-left: 5%;
+	width: 90%;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif
+}
+
+.imgIndex {
+	
+	max-height: 250 ; 
+
+}
+
+img{
+    padding-left: 5%; 
+	width: 90% ; 
+}
+
+
+.line {
+    margin-bottom: 200;
+}
+
+.lineIndex {
+    margin-bottom: 15;
+}
+p{
+    padding-left: 5%; 
+	width: 90% ; 
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif
+}
+

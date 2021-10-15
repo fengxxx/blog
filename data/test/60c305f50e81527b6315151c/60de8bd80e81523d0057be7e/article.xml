@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article version="1.0" id="60de8bd80e81523d0057be7e">
+  <languages>
+    <lang>en_GB</lang>
+    <lang>zh_CN</lang>
+    <lang>zh_TW</lang>
+  </languages>
+  <pubdate>2021-07-02T03:57:49+00:00</pubdate>
+  <ads_disabled>false</ads_disabled>
+  <headline>
+    <title lang="en_GB">Covid and slobalization - trailer</title>
+    <title lang="zh_CN">新冠与“慢球化” - 预告</title>
+    <title lang="zh_TW">新冠與“慢球化” - 預告</title>
+    <fly_title lang="en_GB">The Economist Film</fly_title>
+    <fly_title lang="zh_CN">经济学人视频</fly_title>
+    <fly_title lang="zh_TW">經濟學人視頻</fly_title>
+    <section lang="en_GB"/>
+    <section lang="zh_CN"/>
+    <section lang="zh_TW"/>
+  </headline>
+  <body>
+    <rubric lang="en_GB">Before the pandemic, globalisation was already in retreat. Now that trend looks set to accelerate.</rubric>
+    <rubric lang="zh_CN">早在疫情爆发前，全球化就已经出现了倒退。现在，这一趋势显然还在加速。</rubric>
+    <rubric lang="zh_TW">早在疫情爆發前，全球化就已經出現了倒退。現在，這一趨勢顯然還在加速。</rubric>
+    <content>
+      <image>
+        <url lang="en_GB">images/1625197528.png</url>
+        <url lang="zh_CN">images/1625197528.png</url>
+        <url lang="zh_TW">images/1625197528.png</url>
+        <caption lang="en_GB"/>
+        <caption lang="zh_CN"/>
+        <caption lang="zh_TW"/>
+      </image>
+      <video>
+        <url lang="en_GB">https://businessreviewglobal-cdn.com/video/60c305f50e81527b6315151c/2021-07-02/1625197527/1625197527_Playlist.m3u8</url>
+        <url lang="zh_CN">https://businessreviewglobal-cdn.com/video/60c305f50e81527b6315151c/2021-07-02/1625197527/1625197527_Playlist.m3u8</url>
+        <url lang="zh_TW">https://businessreviewglobal-cdn.com/video/60c305f50e81527b6315151c/2021-07-02/1625197527/1625197527_Playlist.m3u8</url>
+      </video>
+    </content>
+    <idioms/>
+  </body>
+</article>
