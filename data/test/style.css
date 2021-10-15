@@ -110,6 +110,11 @@ img{
 	font-size:xx-large;
 }
 
+body{
+    margin: auto;
+    width: 900;
+}
+
 p{
     padding-left: 5%; 
 	width: 90% ; 
