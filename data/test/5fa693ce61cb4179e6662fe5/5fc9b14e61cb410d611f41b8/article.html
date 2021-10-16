@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2020-12-10T15:12:02+00:00</p><p class="fly_title laguage0"  >Financial-market data</p><p class="fly_title laguage1"  >金融市场数据</p><p class="fly_title laguage2"  >金融市場數據</p><p class="title laguage0" >Go figure</p><p class="title laguage1" >算不到</p><p class="title laguage2" >算不到</p><p class="rubric laguage0"  >A crowd of data firms are cashing in on the quant-investing boom</p><p class="rubric laguage1"  >一批数据公司正从量化投资热潮中获利</p><p class="rubric laguage2"  >一批數據公司正從量化投資熱潮中獲利</p><img src="images/5fc9b14e61cb410d611f41b8_en_GB_0_quipimage.png" ></img><img src="images/5fc9b14e61cb410d611f41b8_zh_CN_0_quipimage.png" ></img><img src="images/5fc9b14e61cb410d611f41b8_zh_CN_0_quipimage.png" ></img><p class="mainpage laguage0">TRADERS AND their Bloomberg terminals are seldom parted. Some 330,000 people fork out around $25,000 annually to access Bloomberg’s suite of services: financial-market data; graphing and pricing tools; the ability to chat with other market participants. These functions are so vital for bond traders, hedge-fund managers and pension-fund investors that, when the pandemic closed offices worldwide, many lugged their terminals home in taxi cabs.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2020-12-10T15:12:02+00:00</p><p class="fly_title laguage0"  >Financial-market data</p><p class="fly_title laguage1"  >金融市场数据</p><p class="fly_title laguage2"  >金融市場數據</p><p class="title laguage0" >Go figure</p><p class="title laguage1" >算不到</p><p class="title laguage2" >算不到</p><p class="rubric laguage0"  >A crowd of data firms are cashing in on the quant-investing boom</p><p class="rubric laguage1"  >一批数据公司正从量化投资热潮中获利</p><p class="rubric laguage2"  >一批數據公司正從量化投資熱潮中獲利</p><img class="laguage0" src="images/5fc9b14e61cb410d611f41b8_en_GB_0_quipimage.png" ></img><img class="laguage0"  src="images/5fc9b14e61cb410d611f41b8_zh_CN_0_quipimage.png" ></img><img class="laguage0"  src="images/5fc9b14e61cb410d611f41b8_zh_CN_0_quipimage.png" ></img><p class="mainpage laguage0">TRADERS AND their Bloomberg terminals are seldom parted. Some 330,000 people fork out around $25,000 annually to access Bloomberg’s suite of services: financial-market data; graphing and pricing tools; the ability to chat with other market participants. These functions are so vital for bond traders, hedge-fund managers and pension-fund investors that, when the pandemic closed offices worldwide, many lugged their terminals home in taxi cabs.
         </p><p class="mainpage laguage1">交易员和他们的彭博终端总是形影不离。约有33万人每年花费约2.5万美元使用彭博的服务套件：金融市场数据、图表和定价工具，以及和其他市场参与者聊天的功能。这些功能对于债券交易员、对冲基金经理和养老基金投资者至关重要，在疫情导致全球各地的办公室关闭时，许多人索性把自己的彭博终端搬上出租车运回了家里。
         </p><p class="mainpage laguage2">交易員和他們的彭博終端總是形影不離。約有33萬人每年花費約2.5萬美元使用彭博的服務套件：金融市場數據、圖表和定價工具，以及和其他市場參與者聊天的功能。這些功能對於債券交易員、對沖基金經理和養老基金投資者至關重要，在疫情導致全球各地的辦公室關閉時，許多人索性把自己的彭博終端搬上出租車運回了家裡。
       </p><p class="mainpage laguage0">As quantitative investing swells and algorithms dominate financial markets, though, the demand for data is changing. A human stock-picker might prefer a single slick platform through which they can build charts and chat to their broker, but quantitative firms want to be plugged into vast data sets that they can sift for signals. One of the quickest-growing slices of the market-data industry for the past five years has been direct selling to investment managers, rather than traders. And a motley, fragmented bunch of providers are having enormous success selling proprietary data directly to quantitative managers. A reminder of this came on November 30th when S&amp;P, a rating agency and financial-information firm, said it would buy IHS Markit, a credit-data provider, for $44bn. The tie-up is the second-largest acquisition announced this year, behind only a $56bn Chinese oil-pipeline deal in July.

@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2020-12-07T14:45:30+00:00</p><p class="fly_title laguage0"  >Buttonwood</p><p class="fly_title laguage1"  >梧桐</p><p class="fly_title laguage2"  >梧桐</p><p class="title laguage0" >Sand in the gears</p><p class="title laguage1" >机器卡壳</p><p class="title laguage2" >機器卡殼</p><p class="rubric laguage0"  >The lesson from the most recent quant quake</p><p class="rubric laguage1"  >最近一次“量化地震”的教训</p><p class="rubric laguage2"  >最近一次“量化地震”的教訓</p><img src="images/5fc9b12c61cb410d604fe144_en_GB_0_quipimage.png" ></img><img src="images/5fc9b12c61cb410d604fe144_zh_CN_0_quipimage.png" ></img><img src="images/5fc9b12c61cb410d604fe144_zh_CN_0_quipimage.png" ></img><p class="mainpage laguage0">WHAT IS IT like to lose to a machine? In 1997 the world’s best chess player, Garry Kasparov, was beaten by Deep Blue, a $10m super-computer made by IBM. Twenty years later he wrote “Deep Thinking”, a book about the experience. What comes across vividly is how exhausting each game was. Chess players, even great ones like Mr Kasparov, get tired and frustrated. Doubts begin to creep in. By contrast, Deep Blue just needed the occasional reboot.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2020-12-07T14:45:30+00:00</p><p class="fly_title laguage0"  >Buttonwood</p><p class="fly_title laguage1"  >梧桐</p><p class="fly_title laguage2"  >梧桐</p><p class="title laguage0" >Sand in the gears</p><p class="title laguage1" >机器卡壳</p><p class="title laguage2" >機器卡殼</p><p class="rubric laguage0"  >The lesson from the most recent quant quake</p><p class="rubric laguage1"  >最近一次“量化地震”的教训</p><p class="rubric laguage2"  >最近一次“量化地震”的教訓</p><img class="laguage0" src="images/5fc9b12c61cb410d604fe144_en_GB_0_quipimage.png" ></img><img class="laguage0"  src="images/5fc9b12c61cb410d604fe144_zh_CN_0_quipimage.png" ></img><img class="laguage0"  src="images/5fc9b12c61cb410d604fe144_zh_CN_0_quipimage.png" ></img><p class="mainpage laguage0">WHAT IS IT like to lose to a machine? In 1997 the world’s best chess player, Garry Kasparov, was beaten by Deep Blue, a $10m super-computer made by IBM. Twenty years later he wrote “Deep Thinking”, a book about the experience. What comes across vividly is how exhausting each game was. Chess players, even great ones like Mr Kasparov, get tired and frustrated. Doubts begin to creep in. By contrast, Deep Blue just needed the occasional reboot.
         </p><p class="mainpage laguage1">输给一台机器是什么感觉？1997年，世界上最优秀的国际象棋选手加里·卡斯帕罗夫（Garry Kasparov）被一台价值千万美元的IBM超级计算机“深蓝”打败。20年后，他围绕这段经历写下了《深思》（Deep Thinking）一书。其中让人感受最深的是，每一场比赛都如此让人精疲力竭。即使像卡斯帕罗夫这样伟大的棋手也会感到疲倦和沮丧。自我怀疑随之滋生。相比之下，深蓝只需要偶尔重启一次。
         </p><p class="mainpage laguage2">輸給一台機器是什麼感覺？1997年，世界上最優秀的國際象棋選手加里·卡斯帕羅夫（Garry Kasparov）被一台價值千萬美元的IBM超級計算機“深藍”打敗。20年後，他圍繞這段經歷寫下了《深思》（Deep Thinking）一書。其中讓人感受最深的是，每一場比賽都如此讓人精疲力竭。即使像卡斯帕羅夫這樣偉大的棋手也會感到疲倦和沮喪。自我懷疑隨之滋生。相比之下，深藍只需要偶爾重啟一次。
       </p><p class="mainpage laguage0">Now turn the tables. What is it like to win against the machines? By New Year’s Eve the least smart buy-and-hold investor in an index fund might be able to boast of such a victory. For 2020 has been rotten for “quant” funds, which use powerful computers to sift market data for patterns that might predict future prices. “Long-short” momentum—buying recent winners and selling recent losers—had been one of quant’s better strategies this year. Yet on November 9th, when news broke of an effective vaccine for covid-19, it had its worst ever day.

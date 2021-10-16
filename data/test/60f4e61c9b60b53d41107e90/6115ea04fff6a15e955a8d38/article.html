@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-08-16T15:55:27+00:00</p><p class="fly_title laguage0"  >Combating future viruses</p><p class="fly_title laguage1"  >抗击未来病毒</p><p class="fly_title laguage2"  >抗擊未來病毒</p><p class="title laguage0" >Predicting viral evolution may let vaccines be prepared in advance</p><p class="title laguage1" >预测病毒进化或许可以提前备好疫苗</p><p class="title laguage2" >預測病毒進化或許可以提前備好疫苗</p><p class="rubric laguage0"  >New techniques could programme people’s immune systems against future pathogens</p><p class="rubric laguage1"  >新技术也许能诱导人体免疫系统准备好对付尚未出现的病原体</p><p class="rubric laguage2"  >新技術也許能誘導人體免疫系統準備好對付尚未出現的病原體</p><img src="images/_en_GB_0_quipimage.jpeg" ></img><img src="images/_zh_CN_0_quipimage.jpeg" ></img><img src="images/_zh_CN_0_quipimage.jpeg" ></img><p class="mainpage laguage0">GENERALLY, IMMUNE systems mount responses only against pathogens that have already infected the bodies they are protecting. Science, though, can shorten the path to immunity by vaccination. This involves presenting the immune system with harmless or lookalike versions of dangerous pathogens so that it may create antibodies and killer cells hostile to the real thing in advance of any actual infection, thereby reducing its danger.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-08-16T15:55:27+00:00</p><p class="fly_title laguage0"  >Combating future viruses</p><p class="fly_title laguage1"  >抗击未来病毒</p><p class="fly_title laguage2"  >抗擊未來病毒</p><p class="title laguage0" >Predicting viral evolution may let vaccines be prepared in advance</p><p class="title laguage1" >预测病毒进化或许可以提前备好疫苗</p><p class="title laguage2" >預測病毒進化或許可以提前備好疫苗</p><p class="rubric laguage0"  >New techniques could programme people’s immune systems against future pathogens</p><p class="rubric laguage1"  >新技术也许能诱导人体免疫系统准备好对付尚未出现的病原体</p><p class="rubric laguage2"  >新技術也許能誘導人體免疫系統準備好對付尚未出現的病原體</p><img class="laguage0" src="images/_en_GB_0_quipimage.jpeg" ></img><img class="laguage0"  src="images/_zh_CN_0_quipimage.jpeg" ></img><img class="laguage0"  src="images/_zh_CN_0_quipimage.jpeg" ></img><p class="mainpage laguage0">GENERALLY, IMMUNE systems mount responses only against pathogens that have already infected the bodies they are protecting. Science, though, can shorten the path to immunity by vaccination. This involves presenting the immune system with harmless or lookalike versions of dangerous pathogens so that it may create antibodies and killer cells hostile to the real thing in advance of any actual infection, thereby reducing its danger.
         </p><p class="mainpage laguage1">一般来说，免疫系统只会攻击已感染人体的病原体，发挥保护作用。不过，科学让人们找到了获得免疫力的捷径——接种疫苗。其原理是让免疫系统接触经过无害处理的危险病原体或与之相似的病原体，让人体有可能在实际感染前产生能对抗真正病原体的抗体和杀伤细胞，从而降低危险。
         </p><p class="mainpage laguage2">一般來說，免疫系統只會攻擊已感染人體的病原體，發揮保護作用。不過，科學讓人們找到了獲得免疫力的捷徑——接種疫苗。其原理是讓免疫系統接觸經過無害處理的危險病原體或與之相似的病原體，讓人體有可能在實際感染前產生能對抗真正病原體的抗體和殺傷細胞，從而降低危險。
       </p><p class="mainpage laguage0">Like immune responses themselves, however, vaccination generally has to wait for the appearance of the pathogen in question before it can do its stuff. There is therefore a delay between a pathogen’s arrival on the scene and the deployment of a vaccine against it. That delay costs lives. Even in the case of covid-19, which has prompted the fastest vaccine-development programme the world has ever witnessed, millions are reckoned to have died by the time vaccinations began to be given in the rich world at the end of 2020.
@@ -51,7 +71,7 @@
       </p><p class="mainpage laguage0">Deep mutational scanning may have other uses, too. Gabriel Victora, an immunologist at Rockefeller University in New York, thinks predicting the evolution of a pathogen in this way will be useful not just for designing antibodies and vaccines, but also for detecting parts of the virus which change only rarely, and aiming antibodies at what would thus be reliable targets.
         </p><p class="mainpage laguage1">深度突变扫描或许还有其他用途。纽约洛克菲勒大学的免疫学家加布雷尔·维克托劳（Gabriel Victora）认为，以这种方式预测病原体的演变不仅可以用于设计抗体和疫苗，也可以用于检测病毒中极少发生变异的部分，让抗体瞄准这些可靠的攻击目标。
         </p><p class="mainpage laguage2">深度突變掃描或許還有其他用途。紐約洛克菲勒大學的免疫學家加布雷爾·維克托勞（Gabriel Victora）認為，以這種方式預測病原體的演變不僅可以用於設計抗體和疫苗，也可以用於檢測病毒中極少發生變異的部分，讓抗體瞄準這些可靠的攻擊目標。
-      </p><img src="images/_en_GB_16_quipimage.jpeg" ></img><img src="images/_zh_CN_16_quipimage.jpeg" ></img><img src="images/_zh_CN_16_quipimage.jpeg" ></img><p class="mainpage laguage0">This, though, is difficult. The shape of any given segment of a protein depends on the rest of the molecule of which it is a part. Yet, for the immune system, the shape of its target is a crucial feature that it needs to learn in order to recognise its foe. So, though predictive approaches like FL77’s might spot segments of viral proteins which are unlikely to change, getting the immune system to look at them specifically is difficult, because expressing an isolated protein segment in a way that makes it the same shape as it is when it is part of a bigger structure is tricky.
+      </p><img class="laguage0" src="images/_en_GB_16_quipimage.jpeg" ></img><img class="laguage0"  src="images/_zh_CN_16_quipimage.jpeg" ></img><img class="laguage0"  src="images/_zh_CN_16_quipimage.jpeg" ></img><p class="mainpage laguage0">This, though, is difficult. The shape of any given segment of a protein depends on the rest of the molecule of which it is a part. Yet, for the immune system, the shape of its target is a crucial feature that it needs to learn in order to recognise its foe. So, though predictive approaches like FL77’s might spot segments of viral proteins which are unlikely to change, getting the immune system to look at them specifically is difficult, because expressing an isolated protein segment in a way that makes it the same shape as it is when it is part of a bigger structure is tricky.
         </p><p class="mainpage laguage1">但这并不容易。蛋白分子任一片段的形状都取决于该分子的其他构成部分。而对免疫系统来说，要识别出攻击目标，一个必须掌握的关键特征就是目标的形状。因此，尽管FL77的这类预测方法可能会发现病毒蛋白中不太会变异的片段，但要让免疫系统学会专门分辨出它们是件难事，因为很难找到方法来孤立表达蛋白分子的某个片段而使其形状与它作为整体的一部分时的形状一致。
         </p><p class="mainpage laguage2">但這並不容易。蛋白分子任一片段的形狀都取決於該分子的其他構成部分。而對免疫系統來說，要識別出攻擊目標，一個必須掌握的關鍵特徵就是目標的形狀。因此，儘管FL77的這類預測方法可能會發現病毒蛋白中不太會變異的片段，但要讓免疫系統學會專門分辨出它們是件難事，因為很難找到方法來孤立表達蛋白分子的某個片段而使其形狀與它作為整體的一部分時的形狀一致。
       </p><p class="mainpage laguage0">A more brute-force approach is simply to show the immune system all of the protein structures that are likely to emerge in future, so that it makes antibodies against the lot. Dr Victora says that immune systems have no known limit to their capacity to absorb information about pathogens. Instead, the problem with this approach may come if the system preferentially makes antibodies to some of the predicted variant proteins, but not others.

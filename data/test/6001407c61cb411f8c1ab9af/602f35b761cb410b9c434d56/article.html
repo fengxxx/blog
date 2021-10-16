@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-02-23T13:25:04+00:00</p><p class="fly_title laguage0"  >Making vaccines</p><p class="fly_title laguage1"  >制造疫苗</p><p class="fly_title laguage2"  >製造疫苗</p><p class="title laguage0" >Doing the do</p><p class="title laguage1" >使命必达</p><p class="title laguage2" >使命必達</p><p class="rubric laguage0"  >Vaccines must now be produced on a scale greater than ever before. That is hard</p><p class="rubric laguage1"  >现在必须把疫苗的产能提高到前所未有的水平。这很难</p><p class="rubric laguage2"  >現在必須把疫苗的產能提高到前所未有的水平。這很難</p><img src="images/20210206_STP001.png" ></img><img src="images/20210206_STP001.png" ></img><img src="images/20210206_STP001.png" ></img><p class="mainpage laguage0">NINE VACCINES against covid-19 have already been approved in one jurisdiction or another, with many more in various stages of preparation. That this has happened within a year of the illness coming to the world’s attention is remarkable. But it is one thing to design and test vaccines. It is another to make them at sufficient scale to generate the billions of doses needed to vaccinate the world’s population, and to do so at such speed that the rate of inoculation can outpace the spread and possible mutation of the virus.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-02-23T13:25:04+00:00</p><p class="fly_title laguage0"  >Making vaccines</p><p class="fly_title laguage1"  >制造疫苗</p><p class="fly_title laguage2"  >製造疫苗</p><p class="title laguage0" >Doing the do</p><p class="title laguage1" >使命必达</p><p class="title laguage2" >使命必達</p><p class="rubric laguage0"  >Vaccines must now be produced on a scale greater than ever before. That is hard</p><p class="rubric laguage1"  >现在必须把疫苗的产能提高到前所未有的水平。这很难</p><p class="rubric laguage2"  >現在必須把疫苗的產能提高到前所未有的水平。這很難</p><img class="laguage0" src="images/20210206_STP001.png" ></img><img class="laguage0"  src="images/20210206_STP001.png" ></img><img class="laguage0"  src="images/20210206_STP001.png" ></img><p class="mainpage laguage0">NINE VACCINES against covid-19 have already been approved in one jurisdiction or another, with many more in various stages of preparation. That this has happened within a year of the illness coming to the world’s attention is remarkable. But it is one thing to design and test vaccines. It is another to make them at sufficient scale to generate the billions of doses needed to vaccinate the world’s population, and to do so at such speed that the rate of inoculation can outpace the spread and possible mutation of the virus.
         </p><p class="mainpage laguage1">目前已有九种新冠疫苗在不同的司法辖区获批上市，处在研发的各种阶段的疫苗更是多得很。在新冠肺炎引发全球关注的一年内就取得了如此进展，是件了不起的事情。但是，疫苗的设计和试验是一回事，足够的产能又是另一回事——不仅要生产给全世界人口接种所需的几十亿剂疫苗，接种速度也要超过病毒传播和可能变异的速度才行。
         </p><p class="mainpage laguage2">目前已有九種新冠疫苗在不同的司法轄區獲批上市，處在研發的各種階段的疫苗更是多得很。在新冠肺炎引發全球關注的一年內就取得了如此進展，是件了不起的事情。但是，疫苗的設計和試驗是一回事，足夠的產能又是另一回事——不僅要生產給全世界人口接種所需的幾十億劑疫苗，接種速度也要超過病毒傳播和可能變異的速度才行。
       </p><p class="mainpage laguage0">Broadly, there are two ways of making antiviral vaccines. One, tried and trusted, involves growing, in tanks called bioreactors, cell cultures that act as hosts for viruses which are then used in one way or another to make the vaccine in question. Cells grown this way can be of many types—insect, human kidney, monkey kidney, hamster ovary—as can the resulting vaccines. These may be weakened or killed versions of the virus to be protected against, or live viruses of a different and less-dangerous sort that carry a gene or two abstracted from the target virus, or even just isolated target-viral proteins. The point is that the vaccine should introduce into the body, or induce that body to make, something which the immune system can learn to recognise and attack if the real target virus should ever turn up.

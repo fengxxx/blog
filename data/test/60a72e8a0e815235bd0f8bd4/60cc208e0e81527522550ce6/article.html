@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-06-24T14:34:21+00:00</p><p class="fly_title laguage0"  >Nuclear power</p><p class="fly_title laguage1"  >核能</p><p class="fly_title laguage2"  >核能</p><p class="title laguage0" >A firm founded by Bill Gates bets on a novel nuclear reactor</p><p class="title laguage1" >比尔·盖茨创立的公司押注新型核反应堆</p><p class="title laguage2" >比爾·蓋茨創立的公司押注新型核反應堆</p><p class="rubric laguage0"  >The hope is that it will work well with renewable-dominated power grids</p><p class="rubric laguage1"  >希望它能契合以可再生能源为主的电网</p><p class="rubric laguage2"  >希望它能契合以可再生能源為主的電網</p><img src="images/_en_GB_0_quipimage.jpeg" ></img><img src="images/_zh_CN_0_quipimage.jpeg" ></img><img src="images/_zh_CN_0_quipimage.jpeg" ></img><p class="mainpage laguage0">SINCE HANDING over the reins as Microsoft’s chief executive in 2000, Bill Gates has been best-known for his philanthropy. The Bill and Melinda Gates Foundation, one of the world’s largest charities, has given billions of dollars to vaccination drives, family-planning clinics, research into drug treatments for malaria and more.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-06-24T14:34:21+00:00</p><p class="fly_title laguage0"  >Nuclear power</p><p class="fly_title laguage1"  >核能</p><p class="fly_title laguage2"  >核能</p><p class="title laguage0" >A firm founded by Bill Gates bets on a novel nuclear reactor</p><p class="title laguage1" >比尔·盖茨创立的公司押注新型核反应堆</p><p class="title laguage2" >比爾·蓋茨創立的公司押注新型核反應堆</p><p class="rubric laguage0"  >The hope is that it will work well with renewable-dominated power grids</p><p class="rubric laguage1"  >希望它能契合以可再生能源为主的电网</p><p class="rubric laguage2"  >希望它能契合以可再生能源為主的電網</p><img class="laguage0" src="images/_en_GB_0_quipimage.jpeg" ></img><img class="laguage0"  src="images/_zh_CN_0_quipimage.jpeg" ></img><img class="laguage0"  src="images/_zh_CN_0_quipimage.jpeg" ></img><p class="mainpage laguage0">SINCE HANDING over the reins as Microsoft’s chief executive in 2000, Bill Gates has been best-known for his philanthropy. The Bill and Melinda Gates Foundation, one of the world’s largest charities, has given billions of dollars to vaccination drives, family-planning clinics, research into drug treatments for malaria and more.
         </p><p class="mainpage laguage1">自2000年卸任微软首席执行官以来，比尔·盖茨最出名的事业是做慈善。比尔和梅琳达·盖茨基金会是全球最大的慈善机构之一，已在推动疫苗接种、计划生育诊所、抗疟疾药物治疗研究等领域捐赠了数百亿美元。
         </p><p class="mainpage laguage2">自2000年卸任微軟首席執行官以來，比爾·蓋茨最出名的事業是做慈善。比爾和梅琳達·蓋茨基金會是全球最大的慈善機構之一，已在推動疫苗接種、計劃生育診所、抗瘧疾藥物治療研究等領域捐贈了數百億美元。
       </p><p class="mainpage laguage0">But Mr Gates has not abandoned the business world entirely. On June 2nd TerraPower, a company he founded in 2008, announced that it would build a demonstration of an exotic, high-tech nuclear power station in Wyoming. The firm’s Natrium reactor is one of a gaggle of new designs that have emerged in recent years, as engineers try to come up with cheaper, simpler nuclear power plants that can provide low-carbon electricity with fewer of the cost and safety worries that have plagued the industry in the past.

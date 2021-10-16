@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-02-28T11:51:07+00:00</p><p class="fly_title laguage0"  >Oncology</p><p class="fly_title laguage1"  >肿瘤学</p><p class="fly_title laguage2"  >腫瘤學</p><p class="title laguage0" >Precisely!</p><p class="title laguage1" >切中要害</p><p class="title laguage2" >切中要害</p><p class="rubric laguage0"  >Studying cancer genomes gene by gene could lead to better treatments</p><p class="rubric laguage1"  >逐个研究癌症基因组中的基因可能启发更好的疗法</p><p class="rubric laguage2"  >逐個研究癌症基因組中的基因可能啟發更好的療法</p><p class="mainpage laguage0">PRECISION MEDICINE holds that, because people are unique, so too are their diseases. It aims to prescribe treatments tailored to the genetic and biochemical characteristics of individual patients. Achieving this, in the context of oncology, is the purpose of the Cancer Dependency Map (DepMap), which is being developed jointly by the Wellcome Sanger Institute, near Cambridge, in Britain, and the Broad Institute in the city in Massachusetts of that name. Cancer is a good candidate for the application of precision medicine, because it arises when previously well-behaved cells start reproducing uncontrollably, usually as a result of a mutation in their genetic code. Numerous mutations can have this result, so many tailored treatments may be possible. DepMap seeks to find both mutations and treatments.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-02-28T11:51:07+00:00</p><p class="fly_title laguage0"  >Oncology</p><p class="fly_title laguage1"  >肿瘤学</p><p class="fly_title laguage2"  >腫瘤學</p><p class="title laguage0" >Precisely!</p><p class="title laguage1" >切中要害</p><p class="title laguage2" >切中要害</p><p class="rubric laguage0"  >Studying cancer genomes gene by gene could lead to better treatments</p><p class="rubric laguage1"  >逐个研究癌症基因组中的基因可能启发更好的疗法</p><p class="rubric laguage2"  >逐個研究癌症基因組中的基因可能啟發更好的療法</p><p class="mainpage laguage0">PRECISION MEDICINE holds that, because people are unique, so too are their diseases. It aims to prescribe treatments tailored to the genetic and biochemical characteristics of individual patients. Achieving this, in the context of oncology, is the purpose of the Cancer Dependency Map (DepMap), which is being developed jointly by the Wellcome Sanger Institute, near Cambridge, in Britain, and the Broad Institute in the city in Massachusetts of that name. Cancer is a good candidate for the application of precision medicine, because it arises when previously well-behaved cells start reproducing uncontrollably, usually as a result of a mutation in their genetic code. Numerous mutations can have this result, so many tailored treatments may be possible. DepMap seeks to find both mutations and treatments.
         </p><p class="mainpage laguage1">精准医学认为，每个人都是独特的，所以他们所患的疾病也是如此。它旨在针对个体患者的遗传和生物化学特征给出治疗方案。在肿瘤学领域，这就是“癌症依赖关系图”（Cancer Dependency Map，DepMap）要实现的目标，该项目由位于英国剑桥附近的惠康桑格研究所（Wellcome Sanger Institute）和美国麻省剑桥市的布罗德研究所（Broad Institute）联合研发。癌症是精准医学的一个上佳应用领域，这是因为癌症发生在先前规矩行事的细胞开始不受控地繁殖之时，通常是由于这些细胞的遗传密码发生了一个突变。大量突变都可能导致这种结果，因此可能有许多针对性的治疗方案。DepMap试图找到突变和对应的疗法。
         </p><p class="mainpage laguage2">精準醫學認為，每個人都是獨特的，所以他們所患的疾病也是如此。它旨在針對個體患者的遺傳和生物化學特徵給出治療方案。在腫瘤學領域，這就是“癌症依賴關係圖”（Cancer Dependency Map，DepMap）要實現的目標，該項目由位於英國劍橋附近的惠康桑格研究所（Wellcome Sanger Institute）和美國麻省劍橋市的布羅德研究所（Broad Institute）聯合研發。癌症是精準醫學的一個上佳應用領域，這是因為癌症發生在先前規矩行事的細胞開始不受控地繁殖之時，通常是由於這些細胞的遺傳密碼發生了一個突變。大量突變都可能導致這種結果，因此可能有許多針對性的治療方案。DepMap試圖找到突變和對應的療法。
       </p><p class="mainpage laguage0">The first step, as Jesse Boehm, who runs the Broad’s side of the project, explained to last month’s AAAS meeting, is to grow cancerous tissue in laboratories, where it can be studied at researchers’ convenience. Before DepMap began, around 1,700 lines of lab-grown cancer cells were available. To try to increase this number, the project’s scientists turned to social media. Working with American cancer charities they encouraged patients across the country to send in biopsies of their tumours. That has given them more than 2,000 new samples, from which they have been able to create more than 400 extra cell lines. Encouragingly, 30% of these represent cancers that are either rare or occur mostly in children—both groups that researchers need more examples of.

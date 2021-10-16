@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-08-26T13:22:14+00:00</p><p class="fly_title laguage0"  >Automatic goods handling</p><p class="fly_title laguage1"  >自动处理货物</p><p class="fly_title laguage2"  >自動處理貨物</p><p class="title laguage0" >Robots are poised to start unloading lorries</p><p class="title laguage1" >机器人已准备好卸货</p><p class="title laguage2" >機器人已準備好卸貨</p><p class="rubric laguage0"  >The last pieces of warehouse automation will soon be in place</p><p class="rubric laguage1"  >仓库自动化的最后几步将很快走完</p><p class="rubric laguage2"  >倉庫自動化的最後幾步將很快走完</p><img src="images/_en_GB_0_quipimage.jpeg" ></img><img src="images/_zh_CN_0_quipimage.jpeg" ></img><img src="images/_zh_CN_0_quipimage.jpeg" ></img><p class="mainpage laguage0">UNLOADING LORRIES is wearisome for people, but hardly an intellectual challenge. For robots it is the reverse. Robots never tire. They do, however, have problems interpreting the data streaming in from the cameras and laser scanners that are their eyes. Seeing where one box in the back of a crowded lorry ends and another begins is second nature to a human being. But even the best artificial-vision systems struggle to cope.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-08-26T13:22:14+00:00</p><p class="fly_title laguage0"  >Automatic goods handling</p><p class="fly_title laguage1"  >自动处理货物</p><p class="fly_title laguage2"  >自動處理貨物</p><p class="title laguage0" >Robots are poised to start unloading lorries</p><p class="title laguage1" >机器人已准备好卸货</p><p class="title laguage2" >機器人已準備好卸貨</p><p class="rubric laguage0"  >The last pieces of warehouse automation will soon be in place</p><p class="rubric laguage1"  >仓库自动化的最后几步将很快走完</p><p class="rubric laguage2"  >倉庫自動化的最後幾步將很快走完</p><img class="laguage0" src="images/_en_GB_0_quipimage.jpeg" ></img><img class="laguage0"  src="images/_zh_CN_0_quipimage.jpeg" ></img><img class="laguage0"  src="images/_zh_CN_0_quipimage.jpeg" ></img><p class="mainpage laguage0">UNLOADING LORRIES is wearisome for people, but hardly an intellectual challenge. For robots it is the reverse. Robots never tire. They do, however, have problems interpreting the data streaming in from the cameras and laser scanners that are their eyes. Seeing where one box in the back of a crowded lorry ends and another begins is second nature to a human being. But even the best artificial-vision systems struggle to cope.
         </p><p class="mainpage laguage1">从卡车上卸货累人又乏味，但对智力没什么挑战。对于机器人来说，情况正好相反。机器人永远不会疲倦。但它们在解读自己的“眼睛”——也就是摄像头和激光扫描仪——获取的数据时确实存在问题。对人类来说，在装满货物的车斗里分辨相邻两个箱子的分界处是习惯成自然的事情。但这即便对于最好的人工视觉系统也不容易。
         </p><p class="mainpage laguage2">從卡車上卸貨累人又乏味，但對智力沒什麼挑戰。對於機器人來說，情況正好相反。機器人永遠不會疲倦。但它們在解讀自己的“眼睛”——也就是攝像頭和激光掃描儀——獲取的數據時確實存在問題。對人類來說，在裝滿貨物的車斗里分辨相鄰兩個箱子的分界處是習慣成自然的事情。但這即便對於最好的人工視覺系統也不容易。
       </p><p class="mainpage laguage0">And that is just the start. The next question is what the robot should do with what it sees. The less tidy the contents, the greater the problem. Shrink-wrapped pallets of packages are one thing, the miscellaneous jumbles of objects handled by parcel-delivery businesses quite another. Cases may get wedged, or be fumbled. Or the robot may need to work out how to lift an irregular consignment like a set of skis. People learn how to do such things gradually, as they grow up. And machines have to learn, too. That takes time and a lot of training.

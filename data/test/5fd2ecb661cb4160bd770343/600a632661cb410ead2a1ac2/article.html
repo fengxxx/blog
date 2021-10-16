@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-01-26T14:50:16+00:00</p><p class="fly_title laguage0"  >Carmakers and big tech</p><p class="fly_title laguage1"  >汽车制造商和科技巨头</p><p class="fly_title laguage2"  >汽車製造商和科技巨頭</p><p class="title laguage0" >Steel and silicon</p><p class="title laguage1" >钢与硅</p><p class="title laguage2" >鋼與硅</p><p class="rubric laguage0"  >Detroit loses out to virtual Vegas as cars go electric—and electronic</p><p class="rubric laguage1"  >随着汽车走向电气化和电子化，底特律让位于虚拟的拉斯维加斯</p><p class="rubric laguage2"  >隨着汽車走向電氣化和電子化，底特律讓位於虛擬的拉斯維加斯</p><p class="mainpage laguage0">THE ANNUAL Consumer Electronics Show (CES) in Las Vegas used to be a jamboree for gadgets you can put in your pocket or hang on your wall. This hasn’t been true for a few years. As vehicles morph from a lump of mechanical engineering to a digital platform for mobility services, and motor shows wane in importance, carmakers have sought new venues to showcase their wares. At this year’s (virtual) CES, which opened on January 11th, they once again joined makers of smartphones, smart toilets and smart dog flaps in showcasing their smartest tech.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-01-26T14:50:16+00:00</p><p class="fly_title laguage0"  >Carmakers and big tech</p><p class="fly_title laguage1"  >汽车制造商和科技巨头</p><p class="fly_title laguage2"  >汽車製造商和科技巨頭</p><p class="title laguage0" >Steel and silicon</p><p class="title laguage1" >钢与硅</p><p class="title laguage2" >鋼與硅</p><p class="rubric laguage0"  >Detroit loses out to virtual Vegas as cars go electric—and electronic</p><p class="rubric laguage1"  >随着汽车走向电气化和电子化，底特律让位于虚拟的拉斯维加斯</p><p class="rubric laguage2"  >隨着汽車走向電氣化和電子化，底特律讓位於虛擬的拉斯維加斯</p><p class="mainpage laguage0">THE ANNUAL Consumer Electronics Show (CES) in Las Vegas used to be a jamboree for gadgets you can put in your pocket or hang on your wall. This hasn’t been true for a few years. As vehicles morph from a lump of mechanical engineering to a digital platform for mobility services, and motor shows wane in importance, carmakers have sought new venues to showcase their wares. At this year’s (virtual) CES, which opened on January 11th, they once again joined makers of smartphones, smart toilets and smart dog flaps in showcasing their smartest tech.
         </p><p class="mainpage laguage1">一年一度的拉斯维加斯消费电子展（CES）上曾经满是各种可以放在口袋里或挂在墙上的小玩意。过去几年不再是这样了。随着汽车逐渐从一台机械工程设备演变为出行服务的数字平台，且车展的重要性也逐渐下降，汽车制造商已经在寻找新的渠道来展示自己的产品。在1月11日开幕的在线CES展上，它们再次加入智能手机、智能马桶和智能狗门制造商的队伍，展示自己最智能的技术。
         </p><p class="mainpage laguage2">一年一度的拉斯維加斯消費電子展（CES）上曾經滿是各種可以放在口袋裡或掛在牆上的小玩意。過去幾年不再是這樣了。隨着汽車逐漸從一台機械工程設備演變為出行服務的數字平台，且車展的重要性也逐漸下降，汽車製造商已經在尋找新的渠道來展示自己的產品。在1月11日開幕的在線CES展上，它們再次加入智能手機、智能馬桶和智能狗門製造商的隊伍，展示自己最智能的技術。
       </p><p class="mainpage laguage0">CES has risen in significance because vehicles are changing. Bosch, a parts supplier, noted at the show that a typical car had 10m lines of code in 2010; today it has 100m. This month Ford had to idle a factory in Kentucky for a week owing to a global shortage of semiconductors that deprived it of the chips its cars run on.
@@ -15,7 +35,7 @@
       </p><p class="mainpage laguage0">Electrification of transport will speed up the transformation of vehicles into electronic devices. Battery power requires a new electronic architecture that will come with better integration of hardware and software, and improved connectivity. Harman, a car-tech firm, envisions a “third living space” between home and work, using the development to plug a connectivity gap and offer new in-car services, such as interactive concerts and gaming.
         </p><p class="mainpage laguage1">运输电气化将加速车辆向电子设备的转变。电池动力需要一种新的电子架构，能够更好地集成硬件和软件，并改进联通性。汽车技术公司哈曼（Harman）构想了在家和办公室的两点一线上的“第三个生活空间”，利用这种技术发展来填补一个联网的空白段，并提供互动音乐会和游戏等新的车载服务。
         </p><p class="mainpage laguage2">運輸電氣化將加速車輛向電子設備的轉變。電池動力需要一種新的電子架構，能夠更好地集成硬件和軟件，並改進聯通性。汽車技術公司哈曼（Harman）構想了在家和辦公室的兩點一線上的“第三個生活空間”，利用這種技術發展來填補一個聯網的空白段，並提供互動音樂會和遊戲等新的車載服務。
-      </p><img src="images/600a632661cb410ead2a1ac2_en_GB_3_quipimage.png" ></img><img src="images/600a632661cb410ead2a1ac2_zh_CN_3_quipimage.png" ></img><img src="images/600a632661cb410ead2a1ac2_zh_CN_3_quipimage.png" ></img><p class="mainpage laguage0">In other ways, though, cars remain a metal box. Although electrification has reduced barriers to entry in the car business—which were formidable for capital-intensive metal-bashing—vehicles are still best made by firms that can manufacture at scale and with a trusted brand.
+      </p><img class="laguage0" src="images/600a632661cb410ead2a1ac2_en_GB_3_quipimage.png" ></img><img class="laguage0"  src="images/600a632661cb410ead2a1ac2_zh_CN_3_quipimage.png" ></img><img class="laguage0"  src="images/600a632661cb410ead2a1ac2_zh_CN_3_quipimage.png" ></img><p class="mainpage laguage0">In other ways, though, cars remain a metal box. Although electrification has reduced barriers to entry in the car business—which were formidable for capital-intensive metal-bashing—vehicles are still best made by firms that can manufacture at scale and with a trusted brand.
         </p><p class="mainpage laguage1">但在其他方面，汽车仍然是个铁盒子。尽管电气化降低了进入汽车产业的门槛（资本密集型制造业曾经壁垒森严），但能生产出最优质汽车的仍是拥有大规模生产能力和可信赖品牌的公司。
         </p><p class="mainpage laguage2">但在其他方面，汽車仍然是個鐵盒子。儘管電氣化降低了進入汽車產業的門檻（資本密集型製造業曾經壁壘森嚴），但能生產出最優質汽車的仍是擁有大規模生產能力和可信賴品牌的公司。
       </p><p class="mainpage laguage0">As a result, car firms are wracking their brains over how much of the software that runs their vehicles’ new electronic functions they should develop in-house and how much to outsource to tech firms. At CES Daimler showed off Hyperscreen, a new touchscreen dashboard for its luxury electric models. Mary Barra, boss of GM, delivered a keynote speech reiterating the Detroit stalwart’s electric and electronic plans. In the autumn GM said it would invest $27bn in electric cars by 2025 and launch 30 new models. Ahead of CES it unveiled a new logo, repainted blue to evoke clean skies and with its “M” made to look a bit like a plug. During the event the firm made more announcements about its plans for electrification, including details about its BrightDrop electric delivery van and new electric Cadillacs (as well as, inevitably, a flying-car concept).

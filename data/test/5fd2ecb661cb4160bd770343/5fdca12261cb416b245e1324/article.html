@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2020-12-31T09:46:48+00:00</p><p class="fly_title laguage0"  >Aerial combat</p><p class="fly_title laguage1"  >空战</p><p class="fly_title laguage2"  >空戰</p><p class="title laguage0" >Virtual mavericks</p><p class="title laguage1" >虚拟独行侠</p><p class="title laguage2" >虛擬獨行俠</p><p class="rubric laguage0"  >Fighter aircraft will soon get AI pilots. But they will be wingmen, not squadron leaders</p><p class="rubric laguage1"  >战斗机很快将配备AI飞行员。但它们只会充当僚机驾驶员，而不是中队长</p><p class="rubric laguage2"  >戰鬥機很快將配備AI飛行員。但它們只會充當僚機駕駛員，而不是中隊長</p><img src="images/5fdca12261cb416b245e1324_en_GB_0_quipimage.png" ></img><img src="images/5fdca12261cb416b245e1324_zh_CN_0_quipimage.png" ></img><img src="images/5fdca12261cb416b245e1324_zh_CN_0_quipimage.png" ></img><p class="mainpage laguage0">CLASSIC DOGFIGHTS, in which two pilots match wits and machines to shoot down their opponent with well-aimed gunfire, are a thing of the past. Guided missiles have seen to that, and the last recorded instance of such duelling was 32 years ago, near the end of the Iran-Iraq war, when an Iranian F-4 Phantom took out an Iraqi Su-22 with its 20mm cannon.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2020-12-31T09:46:48+00:00</p><p class="fly_title laguage0"  >Aerial combat</p><p class="fly_title laguage1"  >空战</p><p class="fly_title laguage2"  >空戰</p><p class="title laguage0" >Virtual mavericks</p><p class="title laguage1" >虚拟独行侠</p><p class="title laguage2" >虛擬獨行俠</p><p class="rubric laguage0"  >Fighter aircraft will soon get AI pilots. But they will be wingmen, not squadron leaders</p><p class="rubric laguage1"  >战斗机很快将配备AI飞行员。但它们只会充当僚机驾驶员，而不是中队长</p><p class="rubric laguage2"  >戰鬥機很快將配備AI飛行員。但它們只會充當僚機駕駛員，而不是中隊長</p><img class="laguage0" src="images/5fdca12261cb416b245e1324_en_GB_0_quipimage.png" ></img><img class="laguage0"  src="images/5fdca12261cb416b245e1324_zh_CN_0_quipimage.png" ></img><img class="laguage0"  src="images/5fdca12261cb416b245e1324_zh_CN_0_quipimage.png" ></img><p class="mainpage laguage0">CLASSIC DOGFIGHTS, in which two pilots match wits and machines to shoot down their opponent with well-aimed gunfire, are a thing of the past. Guided missiles have seen to that, and the last recorded instance of such duelling was 32 years ago, near the end of the Iran-Iraq war, when an Iranian F-4 Phantom took out an Iraqi Su-22 with its 20mm cannon.
         </p><p class="mainpage laguage1">在传统的空中“狗斗”中，两名飞行员比拼头脑和机器，用机炮瞄准并击落对手。这已成为历史，导弹接过了任务。最近一次记录在案的狗斗发生在32年前：两伊战争接近尾声之际，伊朗的一架F-4幻影战斗机用它的20毫米机炮击落了伊拉克的一架苏-22。
         </p><p class="mainpage laguage2">在傳統的空中“狗斗”中，兩名飛行員比拼頭腦和機器，用機炮瞄準並擊落對手。這已成為歷史，導彈接過了任務。最近一次記錄在案的狗斗發生在32年前：兩伊戰爭接近尾聲之際，伊朗的一架F-4幻影戰鬥機用它的20毫米機炮擊落了伊拉克的一架蘇-22。
       </p><p class="mainpage laguage0">But memory lingers, and dogfighting, even of the simulated sort in which the laws of physics are substituted by equations running inside a computer, is reckoned a good test of the aptitude of a pilot in training. And that is also true when the pilot in question is, itself, a computer program. So, when America’s Defence Advanced Research Projects Agency (DARPA), an adventurous arm of the Pentagon, considered the future of air-to-air combat and the role of artificial intelligence (AI) within that future, it began with basics that Manfred von Richthofen himself might have approved of.
@@ -39,7 +59,7 @@
       </p><p class="mainpage laguage0">Of course, a human being could pilot an uncrewed plane remotely, says Mr Colosimo. But he doubts that communications links will ever be sufficiently dependable, given the “contested and congested electromagnetic environment”. In some cases, losing communications is no big deal; a plane can fly home. In others, it is an unacceptable risk. For instance, FCAS aircraft intended for France’s air force will carry that country’s air-to-surface nuclear missiles.
         </p><p class="mainpage laguage1">当然，人类可以远程控制无人驾驶飞机，科洛西莫表示。但是，鉴于“对抗和拥挤的电磁环境”，他怀疑通信链路是否总是足够可靠。有时候，通信中断无关紧要，飞机还是可以返航。有些情况下却会构成不可接受的风险。比如，为法国空军设计的FCAS战机将携带该国的空对面核导弹。
         </p><p class="mainpage laguage2">當然，人類可以遠程控制無人駕駛飛機，科洛西莫表示。但是，鑒於“對抗和擁擠的電磁環境”，他懷疑通信鏈路是否總是足夠可靠。有時候，通信中斷無關緊要，飛機還是可以返航。有些情況下卻會構成不可接受的風險。比如，為法國空軍設計的FCAS戰機將攜帶該國的空對面核導彈。
-      </p><img src="images/5fdca12261cb416b245e1324_en_GB_12_quipimage.png" ></img><img src="images/5fdca12261cb416b245e1324_zh_CN_12_quipimage.png" ></img><img src="images/5fdca12261cb416b245e1324_zh_CN_12_quipimage.png" ></img><p class="mainpage laguage0">The priority for now, therefore, is what armed forces call “manned-unmanned teaming”. In this, a pilot hands off some tasks to a computer while managing others. Today’s pilots no longer need to point their radars in the right direction manually, for instance. But they are still forced to accelerate or turn to alter the chances of the success of a shot, says Colonel Javorsek. Those, he says, “are tasks that are very well suited to hand over”.
+      </p><img class="laguage0" src="images/5fdca12261cb416b245e1324_en_GB_12_quipimage.png" ></img><img class="laguage0"  src="images/5fdca12261cb416b245e1324_zh_CN_12_quipimage.png" ></img><img class="laguage0"  src="images/5fdca12261cb416b245e1324_zh_CN_12_quipimage.png" ></img><p class="mainpage laguage0">The priority for now, therefore, is what armed forces call “manned-unmanned teaming”. In this, a pilot hands off some tasks to a computer while managing others. Today’s pilots no longer need to point their radars in the right direction manually, for instance. But they are still forced to accelerate or turn to alter the chances of the success of a shot, says Colonel Javorsek. Those, he says, “are tasks that are very well suited to hand over”.
         </p><p class="mainpage laguage1">因此，目前的首要任务是建立军队所说的“有人-无人协同”。其中，飞行员将部分任务交给计算机，同时自己掌管其他任务。比如，今天的飞行员不再需要手动操纵雷达瞄准目标。但他们仍必须通过加速或调整方向来改变射击的命中率，贾沃赛克表示。这些“都是非常适合移交给计算机的任务”，他说。
         </p><p class="mainpage laguage2">因此，目前的首要任務是建立軍隊所說的“有人-無人協同”。其中，飛行員將部分任務交給計算機，同時自己掌管其他任務。比如，今天的飛行員不再需要手動操縱雷達瞄準目標。但他們仍必須通過加速或調整方向來改變射擊的命中率，賈沃賽克表示。這些“都是非常適合移交給計算機的任務”，他說。
       </p><p class="mainpage laguage0">One example of such a handover comes from Lockheed Martin, an American aerospace giant. It is developing a missile-avoidance system that can tell which aircraft in a formation of several planes is the target of a particular missile attack, and what evasive actions are needed. This is something that currently requires the interpretation by a human being of several different displays of data.

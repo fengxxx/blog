@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-06-02T15:15:13+00:00</p><p class="fly_title laguage0"  >Loading, please wait</p><p class="fly_title laguage1"  >加载中，请稍等</p><p class="fly_title laguage2"  >加載中，請稍等</p><p class="title laguage0" >The global chip shortage is here for some time</p><p class="title laguage1" >全球芯片短缺将持续一段时间</p><p class="title laguage2" >全球芯片短缺將持續一段時間</p><p class="rubric laguage0"  >Microchips were a boom-and-bust industry even before covid-19</p><p class="rubric laguage1"  >早在疫情之前，微芯片就是个盛衰交替的周期性行业</p><p class="rubric laguage2"  >早在疫情之前，微芯片就是個盛衰交替的周期性行業</p><img src="images/60b0654b0e815215d95640eb_en_GB_0_quipimage.jpeg" ></img><img src="images/60b0654b0e815215d95640eb_zh_CN_0_quipimage.jpeg" ></img><img src="images/60b0654b0e815215d95640eb_zh_CN_0_quipimage.jpeg" ></img><p class="mainpage laguage0">FOR WANT of a chip, the factory was lost. On May 18th Toyota became the latest carmaker forced to cut production amid a global shortage of microchips, announcing it would suspend work at two of its plants in Japan. Firms including Ford, General Motors and Jaguar Land Rover have also had to send workers home.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-06-02T15:15:13+00:00</p><p class="fly_title laguage0"  >Loading, please wait</p><p class="fly_title laguage1"  >加载中，请稍等</p><p class="fly_title laguage2"  >加載中，請稍等</p><p class="title laguage0" >The global chip shortage is here for some time</p><p class="title laguage1" >全球芯片短缺将持续一段时间</p><p class="title laguage2" >全球芯片短缺將持續一段時間</p><p class="rubric laguage0"  >Microchips were a boom-and-bust industry even before covid-19</p><p class="rubric laguage1"  >早在疫情之前，微芯片就是个盛衰交替的周期性行业</p><p class="rubric laguage2"  >早在疫情之前，微芯片就是個盛衰交替的周期性行業</p><img class="laguage0" src="images/60b0654b0e815215d95640eb_en_GB_0_quipimage.jpeg" ></img><img class="laguage0"  src="images/60b0654b0e815215d95640eb_zh_CN_0_quipimage.jpeg" ></img><img class="laguage0"  src="images/60b0654b0e815215d95640eb_zh_CN_0_quipimage.jpeg" ></img><p class="mainpage laguage0">FOR WANT of a chip, the factory was lost. On May 18th Toyota became the latest carmaker forced to cut production amid a global shortage of microchips, announcing it would suspend work at two of its plants in Japan. Firms including Ford, General Motors and Jaguar Land Rover have also had to send workers home.
         </p><p class="mainpage laguage1">芯片不够了，工厂一筹莫展。5月18日，在全球微芯片短缺之际，丰田成为最新一家被迫减产的汽车制造商，宣布将让日本的两家工厂停工。福特、通用汽车和捷豹路虎等公司此前也已不得不先让工人回家。
         </p><p class="mainpage laguage2">芯片不夠了，工廠一籌莫展。5月18日，在全球微芯片短缺之際，豐田成為最新一家被迫減產的汽車製造商，宣布將讓日本的兩家工廠停工。福特、通用汽車和捷豹路虎等公司此前也已不得不先讓工人回家。
       </p><p class="mainpage laguage0">The pain is not confined to the car industry, for the shortage spans all sorts of chips, from the expensive, high-tech devices that power smartphones and data centres to the simple sensors and microcontrollers that have become a vital commodity, scattered across everything from cars to washing machines, and often costing just a few cents each. In the past few weeks companies including Foxconn, Nintendo and Samsung have warned of hits to production, affecting everything from smartphones and games consoles to televisions and home broadband routers.
@@ -18,7 +38,7 @@
       </p><p class="mainpage laguage0">“The most important thing [to recognise]”, says Malcolm Penn, who runs Future Horizons, a chip-industry consultancy, “is that shortages are a natural part of the industry.” Chipmaking, he says, is a good example of what economists call a “pork-cycle” business, named for the regular swings between under- and over-supply first analysed in American pork markets in the 1920s. As with pigs, the supply of chips cannot quickly react to changes in demand. Capacity was tight even before the pandemic, says Mr Penn, pointing out that investment by chipmakers in factory equipment has been below its long-term average for many years (see chart).
         </p><p class="mainpage laguage1">芯片业咨询公司Future Horizons的老板马尔科姆·佩恩（Malcolm Penn）说，“[需要认识到的]最重要的一点是，短缺是这个行业的一个自然组成部分。”他说，芯片制造是经济学家称之为“猪周期”生意的一个很好的例子。上世纪20年代，经济学家首度分析了美国猪肉市场供应不足与供应过剩之间的规律性波动，这个名词由此而来。和猪肉的供应一样，芯片供应无法对需求的变化迅速作出反应。佩恩说，即使在疫情之前，产能也很紧张。他指出，芯片制造商对工厂设备的投资多年来一直低于其长期平均水平（见图表）。
         </p><p class="mainpage laguage2">芯片業諮詢公司Future Horizons的老闆馬爾科姆·佩恩（Malcolm Penn）說，“[需要認識到的]最重要的一點是，短缺是這個行業的一個自然組成部分。”他說，芯片製造是經濟學家稱之為“豬周期”生意的一個很好的例子。上世紀20年代，經濟學家首度分析了美國豬肉市場供應不足與供應過剩之間的規律性波動，這個名詞由此而來。和豬肉的供應一樣，芯片供應無法對需求的變化迅速作出反應。佩恩說，即使在疫情之前，產能也很緊張。他指出，芯片製造商對工廠設備的投資多年來一直低於其長期平均水平（見圖表）。
-      </p><img src="images/60b0654b0e815215d95640eb_en_GB_5_quipimage.png" ></img><img src="images/60b0654b0e815215d95640eb_zh_CN_5_quipimage.png" ></img><img src="images/60b0654b0e815215d95640eb_zh_CN_5_quipimage.png" ></img><p class="mainpage laguage0">The pandemic thus arrived at the worst possible time. After an early crash, demand in several segments boomed, says Alan Priestley of Gartner, another consultancy. Locked-down consumers bought laptops and other gadgets. Cloud-computing operators, which are big consumers of high-end chips, scrambled to add servers to deal with the wave of home-workers. The car industry was particularly badly hit by a decision to cut orders early in the pandemic. Demand for cars has since recovered. But the complexities of the production process means it takes three to four months to turn a blank silicon wafer into a usable batch of chips. “I can cancel my orders in an afternoon,” says Mr Penn. “If I want to start them up again, that takes months—and anyway, that capacity is now busy serving other customers.”
+      </p><img class="laguage0" src="images/60b0654b0e815215d95640eb_en_GB_5_quipimage.png" ></img><img class="laguage0"  src="images/60b0654b0e815215d95640eb_zh_CN_5_quipimage.png" ></img><img class="laguage0"  src="images/60b0654b0e815215d95640eb_zh_CN_5_quipimage.png" ></img><p class="mainpage laguage0">The pandemic thus arrived at the worst possible time. After an early crash, demand in several segments boomed, says Alan Priestley of Gartner, another consultancy. Locked-down consumers bought laptops and other gadgets. Cloud-computing operators, which are big consumers of high-end chips, scrambled to add servers to deal with the wave of home-workers. The car industry was particularly badly hit by a decision to cut orders early in the pandemic. Demand for cars has since recovered. But the complexities of the production process means it takes three to four months to turn a blank silicon wafer into a usable batch of chips. “I can cancel my orders in an afternoon,” says Mr Penn. “If I want to start them up again, that takes months—and anyway, that capacity is now busy serving other customers.”
         </p><p class="mainpage laguage1">这么说来，疫情发生的时间不能更糟了。另一家咨询公司高德纳（Gartner）的艾伦·普里斯特利（Alan Priestley）表示，在经历了一开始的崩盘后，有几个领域需求激增。被疫情封锁在家的消费者纷纷购置笔记本电脑和其他电子小设备。作为高端芯片的消费大户，云计算运营商忙不迭地添置服务器以应对居家工作者激增。汽车行业在疫情初期决定削减芯片订单，这让它受到的冲击尤其严重。自那以后对汽车的需求已经逐渐恢复，但生产过程的复杂性意味着将一张空白硅片变为一组可用的芯片需要三到四个月的时间。“我取消订单只需一个下午，”佩恩说，“如果我想恢复它们，得花几个月——再说了，这些产能这会儿正忙着服务其他客户呢。”
         </p><p class="mainpage laguage2">這麼說來，疫情發生的時間不能更糟了。另一家諮詢公司高德納（Gartner）的艾倫·普里斯特利（Alan Priestley）表示，在經歷了一開始的崩盤後，有幾個領域需求激增。被疫情封鎖在家的消費者紛紛購置筆記本電腦和其他電子小設備。作為高端芯片的消費大戶，雲計算運營商忙不迭地添置服務器以應對居家工作者激增。汽車行業在疫情初期決定削減芯片訂單，這讓它受到的衝擊尤其嚴重。自那以後對汽車的需求已經逐漸恢復，但生產過程的複雜性意味着將一張空白硅片變為一組可用的芯片需要三到四個月的時間。“我取消訂單只需一個下午，”佩恩說，“如果我想恢復它們，得花幾個月——再說了，這些產能這會兒正忙着服務其他客戶呢。”
       </p><p class="mainpage laguage0">The impact of the pandemic, in turn, has been made worse by industry-specific problems. In March a chip plant owned by Renesas, a Japanese firm, caught fire, piling pain on the car industry. Some chipmakers, meanwhile, face shortages of their own. Many cheap, workaday parts are made in older factories designed to process silicon wafers that are 200mm in diameter, or even smaller. (These days 300mm is the standard.) Efforts to boost capacity are stymied by the fact that few toolmakers still make the old-style machines, says Mr Priestley. The market for second-hand 200mm tools, meanwhile, has been stripped bare.

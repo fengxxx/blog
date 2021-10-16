@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-04-25T13:16:26+00:00</p><p class="fly_title laguage0"  >Personal transport</p><p class="fly_title laguage1"  >个人交通</p><p class="fly_title laguage2"  >個人交通</p><p class="title laguage0" >New means of getting from A to B are disrupting carmaking</p><p class="title laguage1" >新出行方式颠覆汽车制造业</p><p class="title laguage2" >新出行方式顛覆汽車製造業</p><p class="rubric laguage0"  >The business of “mobility” in its many forms is huge, and legacy metal-bashers are racing to adapt</p><p class="rubric laguage1"  >“移动出行”形式多样、市场庞大，老牌车厂奋起顺应</p><p class="rubric laguage2"  >“移動出行”形式多樣、市場龐大，老牌車廠奮起順應</p><img src="images/607ebebcc8ff5d6beb4fb0b2_en_GB_0_quipimage.jpeg" ></img><img src="images/607ebebcc8ff5d6beb4fb0b2_zh_CN_0_quipimage.jpeg" ></img><img src="images/607ebebcc8ff5d6beb4fb0b2_zh_CN_0_quipimage.jpeg" ></img><p class="mainpage laguage0">IN THE DECADES after the second world war carmakers were the undisputed champions of the personal-transport economy. Competition and economies of scale made cars affordable to millions of motorists in industrialised countries. In the 1980s and 1990s the likes of General Motors (GM) and Toyota boasted some of the world’s richest market capitalisations. When it came to getting around town, nothing beat the automobile.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-04-25T13:16:26+00:00</p><p class="fly_title laguage0"  >Personal transport</p><p class="fly_title laguage1"  >个人交通</p><p class="fly_title laguage2"  >個人交通</p><p class="title laguage0" >New means of getting from A to B are disrupting carmaking</p><p class="title laguage1" >新出行方式颠覆汽车制造业</p><p class="title laguage2" >新出行方式顛覆汽車製造業</p><p class="rubric laguage0"  >The business of “mobility” in its many forms is huge, and legacy metal-bashers are racing to adapt</p><p class="rubric laguage1"  >“移动出行”形式多样、市场庞大，老牌车厂奋起顺应</p><p class="rubric laguage2"  >“移動出行”形式多樣、市場龐大，老牌車廠奮起順應</p><img class="laguage0" src="images/607ebebcc8ff5d6beb4fb0b2_en_GB_0_quipimage.jpeg" ></img><img class="laguage0"  src="images/607ebebcc8ff5d6beb4fb0b2_zh_CN_0_quipimage.jpeg" ></img><img class="laguage0"  src="images/607ebebcc8ff5d6beb4fb0b2_zh_CN_0_quipimage.jpeg" ></img><p class="mainpage laguage0">IN THE DECADES after the second world war carmakers were the undisputed champions of the personal-transport economy. Competition and economies of scale made cars affordable to millions of motorists in industrialised countries. In the 1980s and 1990s the likes of General Motors (GM) and Toyota boasted some of the world’s richest market capitalisations. When it came to getting around town, nothing beat the automobile.
         </p><p class="mainpage laguage1">二战后的数十年里，汽车制造商是个人交通经济毋庸置疑的大赢家。市场竞争加上规模经济让工业化国家数以百万计的驾驶者都能买得起车。上世纪八九十年代，通用汽车和丰田等公司都曾得意地跻身全球市值最高公司之列。要在城市里行动，没什么比得上汽车。
         </p><p class="mainpage laguage2">二戰後的數十年里，汽車製造商是個人交通經濟毋庸置疑的大贏家。市場競爭加上規模經濟讓工業化國家數以百萬計的駕駛者都能買得起車。上世紀八九十年代，通用汽車和豐田等公司都曾得意地躋身全球市值最高公司之列。要在城市裡行動，沒什麼比得上汽車。
       </p><p class="mainpage laguage0">Today the picture looks different. Of the five most valuable firms in the moving-people-around business only two, Toyota of Japan and Volkswagen of Germany, are established carmakers. Ahead of everyone by a country mile is Tesla, an American company that has disrupted the car industry by turning electric vehicles from an unsightly curiosity (remember the G-wiz?) into a serious challenger to the internal combustion engine. Rounding off the top five are not carmakers at all but Uber, an American ride-hailing giant worth over $100bn, and Didi Chuxing, a Chinese one that on April 10th was reported to have filed confidentially to go public in New York and hopes for a similar valuation.
@@ -15,7 +35,7 @@
       </p><p class="mainpage laguage0">After being slow to react to the threat from Tesla, legacy carmakers are—just about—getting to grips with electrification. Now another disruption lurks around the corner. Changing habits and technology are forcing car companies to rethink how their products are sold, used and owned. In a sign of the times, the boss of Volkswagen, Herbert Diess, concedes that “ownership is not necessarily what you want. You want a car when you need a car.” Competitors are elbowing in; Didi is expected to be the star turn at the Shanghai Motor Show later this month. The private car is not obsolete. But the future business of “mobility”—as the industry has rebranded getting from A to B—will involve much more besides.
         </p><p class="mainpage laguage1">在对特斯拉带来的威胁做出迟缓的反应后，老牌车厂刚刚要开始顺应电气化的趋势。现在另一场颠覆又悄然逼近。习惯的改变和技术的进步迫使车厂重新思考产品的销售、使用和拥有方式。大众汽车的老板赫伯特·迪斯（Herbert Diess）的话成为了时代的注脚：“人们不一定想拥有汽车了，只是在需要用车的时候才想有车。”竞争对手纷纷涌入：在本月下旬举行的上海车展上，滴滴预计将会是一大主角。私家车并没有完全过时，但所谓的“移动出行”（汽车行业对于从一地到另一地的新称法）的内涵将会丰富得多。
         </p><p class="mainpage laguage2">在對特斯拉帶來的威脅做出遲緩的反應後，老牌車廠剛剛要開始順應電氣化的趨勢。現在另一場顛覆又悄然逼近。習慣的改變和技術的進步迫使車廠重新思考產品的銷售、使用和擁有方式。大眾汽車的老闆赫伯特·迪斯（Herbert Diess）的話成為了時代的註腳：“人們不一定想擁有汽車了，只是在需要用車的時候才想有車。”競爭對手紛紛湧入：在本月下旬舉行的上海車展上，滴滴預計將會是一大主角。私家車並沒有完全過時，但所謂的“移動出行”（汽車行業對於從一地到另一地的新稱法）的內涵將會豐富得多。
-      </p><img src="images/607ebebcc8ff5d6beb4fb0b2_en_GB_4_quipimage.png" ></img><img src="images/607ebebcc8ff5d6beb4fb0b2_zh_CN_4_quipimage.png" ></img><img src="images/607ebebcc8ff5d6beb4fb0b2_zh_CN_4_quipimage.png" ></img><p class="mainpage laguage0">The market could be enormous. In 2019, ahead of its flotation, Uber put it at $5.7trn, based on the 20trn or so kilometres that passengers travel each year in 175 countries using road vehicles, including public transport. Consultancies’ estimates are more subdued, and vary considerably. But all point to rich potential. IHS Markit reckons that what it calls “new transport” will be worth $400bn in revenues by 2030. KPMG puts the figure at $1trn. Accenture calculates that revenues from mobility, including car sales, will hit $6.6trn by 2050; new transport will make up 40% of the total.
+      </p><img class="laguage0" src="images/607ebebcc8ff5d6beb4fb0b2_en_GB_4_quipimage.png" ></img><img class="laguage0"  src="images/607ebebcc8ff5d6beb4fb0b2_zh_CN_4_quipimage.png" ></img><img class="laguage0"  src="images/607ebebcc8ff5d6beb4fb0b2_zh_CN_4_quipimage.png" ></img><p class="mainpage laguage0">The market could be enormous. In 2019, ahead of its flotation, Uber put it at $5.7trn, based on the 20trn or so kilometres that passengers travel each year in 175 countries using road vehicles, including public transport. Consultancies’ estimates are more subdued, and vary considerably. But all point to rich potential. IHS Markit reckons that what it calls “new transport” will be worth $400bn in revenues by 2030. KPMG puts the figure at $1trn. Accenture calculates that revenues from mobility, including car sales, will hit $6.6trn by 2050; new transport will make up 40% of the total.
         </p><p class="mainpage laguage1">这个市场可能规模巨大。2019年，优步在上市前估计其规模将在5.7万亿美元，其依据是175个国家每年包括公共交通在内的道路车辆出行里程约为20万亿公里。各家咨询公司的估算更为保守，而且差异很大。但所有估算都显示出这一市场潜力深厚。IHS Markit估计，到2030年，它称之为“新交通”的领域将有4000亿美元的收入。毕马威估计的数字是一万亿美元。而埃森哲计算，到2050年，包括汽车销售在内的移动出行市场收入将达到6.6万亿美元，新交通将占其中的40%。
         </p><p class="mainpage laguage2">這個市場可能規模巨大。2019年，優步在上市前估計其規模將在5.7萬億美元，其依據是175個國家每年包括公共交通在內的道路車輛出行里程約為20萬億公里。各家諮詢公司的估算更為保守，而且差異很大。但所有估算都顯示出這一市場潛力深厚。IHS Markit估計，到2030年，它稱之為“新交通”的領域將有4000億美元的收入。畢馬威估計的數字是一萬億美元。而埃森哲計算，到2050年，包括汽車銷售在內的移動出行市場收入將達到6.6萬億美元，新交通將佔其中的40%。
       </p><p class="mainpage laguage0">Individually owned cars will remain a big part of the new ecosystem. They are still the world’s preferred means of transport. For every ten miles travelled Americans use the car for eight, Europeans for seven and Chinese for six. Even in Europe, which is friendlier to public transport than America or China, only one in six miles was travelled on buses, trains and coaches in 2017. Uber accounts for just 1.5% of total miles driven in its home market.

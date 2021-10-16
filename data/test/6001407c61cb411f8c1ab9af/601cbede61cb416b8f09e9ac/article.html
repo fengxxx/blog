@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-02-17T14:19:11+00:00</p><p class="fly_title laguage0"  >Job titles</p><p class="fly_title laguage1"  >职位头衔</p><p class="fly_title laguage2"  >職位頭銜</p><p class="title laguage0" >Hail to the “chiefs”</p><p class="title laguage1" >向“首席们”致意</p><p class="title laguage2" >向“首席們”致意</p><p class="rubric laguage0"  >An epidemic of new corporate roles</p><p class="rubric laguage1"  >新高管职位大流行</p><p class="rubric laguage2"  >新高管職位大流行</p><p class="mainpage laguage0">WHEN MEETING big new challenges, chief executive officers often resort to a convenient tool: creating fresh executive roles. This helps channel resources to pressing problems and attract talent. It signals to staff and the wider world that bosses understand what really matters (and care about it).
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-02-17T14:19:11+00:00</p><p class="fly_title laguage0"  >Job titles</p><p class="fly_title laguage1"  >职位头衔</p><p class="fly_title laguage2"  >職位頭銜</p><p class="title laguage0" >Hail to the “chiefs”</p><p class="title laguage1" >向“首席们”致意</p><p class="title laguage2" >向“首席們”致意</p><p class="rubric laguage0"  >An epidemic of new corporate roles</p><p class="rubric laguage1"  >新高管职位大流行</p><p class="rubric laguage2"  >新高管職位大流行</p><p class="mainpage laguage0">WHEN MEETING big new challenges, chief executive officers often resort to a convenient tool: creating fresh executive roles. This helps channel resources to pressing problems and attract talent. It signals to staff and the wider world that bosses understand what really matters (and care about it).
         </p><p class="mainpage laguage1">每当遇到重大的新挑战，首席执行官们往往会拾起一个趁手的工具：创造新的高管职位。这有助于把资源导向那些急迫的问题，又能吸引人才。这是向员工和外界发出信号，表明老板明白真正要紧的事情是什么（并且很关心它）。
         </p><p class="mainpage laguage2">每當遇到重大的新挑戰，首席執行官們往往會拾起一個趁手的工具：創造新的高管職位。這有助於把資源導向那些急迫的問題，又能吸引人才。這是向員工和外界發出信號，表明老闆明白真正要緊的事情是什麼（並且很關心它）。
       </p><p class="mainpage laguage0">Sometimes, it ends up looking farcical—remember the proliferation of “chief listening officers” a decade ago, as companies sought to react to social-media chatter? But certain newfangled C-suite roles do catch on; no self-respecting corporation can do without a chief sustainability officer these days. A few corporate positions that have gained prominence during a particularly tumultuous 2020 are almost certainly here to stay.
@@ -21,7 +41,7 @@
       </p><p class="mainpage laguage0">Indeed, recruitment trends show that it is bread and butter that continues to preoccupy bosses. Hiring of “chief revenue officers” and “chief growth officers”, charged with co-ordinating firms’ sales-generating activities, has accelerated as pandemic lockdowns simultaneously restrict economies’ supply and demand sides, according to a survey by LinkedIn, a professional social network (see chart). Their share of C-suite hires is now, respectively, twice and nearly three times what it was in 2017.
         </p><p class="mainpage laguage1">事实上，招聘趋势表明，公司的生计所系是老板们始终最关注的。职业社交网站领英的调查显示，在疫情封锁措施令经济体的供需双侧同时受限的大环境下，负责协调公司创造收入的活动的“首席营收官”和“首席增长官”的招聘呈现加速趋势（见图表）。目前，两者在C级高管职位招聘中的占比分别是2017年时的两倍和近三倍。
         </p><p class="mainpage laguage2">事實上，招聘趨勢表明，公司的生計所系是老闆們始終最關注的。職業社交網站領英的調查顯示，在疫情封鎖措施令經濟體的供需雙側同時受限的大環境下，負責協調公司創造收入的活動的“首席營收官”和“首席增長官”的招聘呈現加速趨勢（見圖表）。目前，兩者在C級高管職位招聘中的佔比分別是2017年時的兩倍和近三倍。
-      </p><img src="images/601cbede61cb416b8f09e9ac_en_GB_5_quipimage.png" ></img><img src="images/601cbede61cb416b8f09e9ac_zh_CN_5_quipimage.png" ></img><img src="images/601cbede61cb416b8f09e9ac_zh_CN_5_quipimage.png" ></img><p class="mainpage laguage0">However, last year’s hottest executive recruits had nothing to do with covid-19. As protests against racial injustice rocked America last summer, companies rushed to enlist chief diversity officers, who ensure their workforce is representative of society at large.
+      </p><img class="laguage0" src="images/601cbede61cb416b8f09e9ac_en_GB_5_quipimage.png" ></img><img class="laguage0"  src="images/601cbede61cb416b8f09e9ac_zh_CN_5_quipimage.png" ></img><img class="laguage0"  src="images/601cbede61cb416b8f09e9ac_zh_CN_5_quipimage.png" ></img><p class="mainpage laguage0">However, last year’s hottest executive recruits had nothing to do with covid-19. As protests against racial injustice rocked America last summer, companies rushed to enlist chief diversity officers, who ensure their workforce is representative of society at large.
         </p><p class="mainpage laguage1">不过，去年最热门的高管职位与新冠疫情无关。随着去年夏天美国爆发大规模反种族歧视抗议活动，企业连忙征召“首席多元化官”以确保自己的员工队伍能体现社会整体的多元性。
         </p><p class="mainpage laguage2">不過，去年最熱門的高管職位與新冠疫情無關。隨着去年夏天美國爆發大規模反種族歧視抗議活動，企業連忙徵召“首席多元化官”以確保自己的員工隊伍能體現社會整體的多元性。
       </p><p class="mainpage laguage0">One risk to diversity chiefs’ future job security is that most of them have not been invited to sit at the corporate top table. Most lack a direct line to the CEO. At worst, the post becomes “a ceremonial role”, with no authority, resources or structure, warns Michael Hyter of Korn Ferry, a consultancy. At best, like other modish corporate roles, it may eventually become redundant. ■

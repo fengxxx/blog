@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-03-31T12:39:29+00:00</p><p class="fly_title laguage0"  >Clean energy</p><p class="fly_title laguage1"  >清洁能源</p><p class="fly_title laguage2"  >清潔能源</p><p class="title laguage0" >Toothpaste in your tank</p><p class="title laguage1" >油箱里的牙膏</p><p class="title laguage2" >油箱裡的牙膏</p><p class="rubric laguage0"  >Hydrogen goop could be more convenient than hydrogen gas</p><p class="rubric laguage1"  >氢糊可能比氢气更方便</p><p class="rubric laguage2"  >氫糊可能比氫氣更方便</p><p class="mainpage laguage0">ON PAPER, HYDROGEN looks like a dream fuel. Coal, oil and natural gas generate planet-warming carbon dioxide when burned. Hydrogen produces pure water. Hydrogen crams more energy into less space than batteries do (though, admittedly, less than petrol or diesel do). And an empty tank can be refilled with hydrogen much faster than an empty battery can be refilled with electricity.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-03-31T12:39:29+00:00</p><p class="fly_title laguage0"  >Clean energy</p><p class="fly_title laguage1"  >清洁能源</p><p class="fly_title laguage2"  >清潔能源</p><p class="title laguage0" >Toothpaste in your tank</p><p class="title laguage1" >油箱里的牙膏</p><p class="title laguage2" >油箱裡的牙膏</p><p class="rubric laguage0"  >Hydrogen goop could be more convenient than hydrogen gas</p><p class="rubric laguage1"  >氢糊可能比氢气更方便</p><p class="rubric laguage2"  >氫糊可能比氫氣更方便</p><p class="mainpage laguage0">ON PAPER, HYDROGEN looks like a dream fuel. Coal, oil and natural gas generate planet-warming carbon dioxide when burned. Hydrogen produces pure water. Hydrogen crams more energy into less space than batteries do (though, admittedly, less than petrol or diesel do). And an empty tank can be refilled with hydrogen much faster than an empty battery can be refilled with electricity.
         </p><p class="mainpage laguage1">理论上看，氢似乎是一种理想的燃料。煤、石油和天然气在燃烧时会产生让地球变暖的二氧化碳。氢只会产生水。与电池相比，氢能以更小的体积储存更多的能量（当然，还是比汽油或柴油要少）。而且，把一只空储罐重新充满氢气也要远快过把空电池充满电。
         </p><p class="mainpage laguage2">理論上看，氫似乎是一種理想的燃料。煤、石油和天然氣在燃燒時會產生讓地球變暖的二氧化碳。氫只會產生水。與電池相比，氫能以更小的體積儲存更多的能量（當然，還是比汽油或柴油要少）。而且，把一隻空儲罐重新充滿氫氣也要遠快過把空電池充滿電。
       </p><p class="mainpage laguage0">In practice, things are trickier. Storing meaningful quantities of hydrogen gas requires compressing it several hundred-fold. Liquefying it is another option, but one that requires cooling the stuff to -253°C. Either process requires rugged tanks. Over time, hydrogen gas can infiltrate metals, weakening them and potentially causing cracks. Tanks must be built from special materials designed to resist this breakdown.

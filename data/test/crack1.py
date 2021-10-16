@@ -10,6 +10,35 @@ lang=1;
 nameDic={}
 
 
+BUTS='''
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script>'''
+
+
 def writePage(lag,f,root):
 
 	f.write("<head><meta charset=\"UTF-8\"></head>")
@@ -19,16 +48,10 @@ def writePage(lag,f,root):
 	link= "<link href=\"../../style.css\" rel=\"stylesheet\">"
 
 	link+="""<head>
-		<script src="../../jquery-1.10.2.min.js"></script>
+		<script src="../../jquery-3.6.0.min.js"></script>
 		</head>"""
 
-	link+='''<button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script>'''
+	link+=BUTS
 
 	# f.write("<div class=\"mainLeft\" ></div>")
 	# f.write("<div ></div>")
@@ -71,11 +94,11 @@ def writePage(lag,f,root):
 			if  len(img)==3:
 				# print (img[lag].text)
 				if img[lag].text!=None:
-					text="<img src=\""+ img[0].text+"\" ></img>"
+					text="<img class=\"laguage0\" src=\""+ img[0].text+"\" ></img>"
 					f.write(text)
-					text="<img src=\""+ img[1].text+"\" ></img>"
+					text="<img class=\"laguage0\"  src=\""+ img[1].text+"\" ></img>"
 					f.write(text)
-					text="<img src=\""+ img[2].text+"\" ></img>"
+					text="<img class=\"laguage0\"  src=\""+ img[2].text+"\" ></img>"
 					f.write(text)
 		if pag!=None :
 			if len(pag)==3:
@@ -196,16 +219,9 @@ def convent(filePath,main_index):
 	link= "<link href=\"style.css\" rel=\"stylesheet\">"
 
 	link+="""<head>
-		<script src="jquery-1.10.2.min.js"></script>
+		<script src="jquery-3.6.0.min.js"></script>
 		</head>"""
-
-	link+='''<button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script>'''
+	link+=BUTS
 	findex.write(link)
 
 
@@ -253,16 +269,10 @@ def BatchConvent():
 	main_index.write("<head><meta charset=\"UTF-8\"></head>")
 
 	link="""<head>
-		<script src="jquery-1.10.2.min.js"></script>
+		<script src="jquery-3.6.0.min.js"></script>
 		</head>"""
 
-	link+='''<button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script>'''
+	link+=BUTS
 	main_index.write(link)
 
 	for s in os.listdir("."):

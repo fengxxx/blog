@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-01-30T16:42:21+00:00</p><p class="fly_title laguage0"  >Data storage</p><p class="fly_title laguage1"  >数据存储</p><p class="fly_title laguage2"  >數據存儲</p><p class="title laguage0" >Re-record, not fade away</p><p class="title laguage1" >重录，还在</p><p class="title laguage2" >重錄，還在</p><p class="rubric laguage0"  >Magnetic tape is an old-fashioned technology with a promising future</p><p class="rubric laguage1"  >磁带是一种很有前途的老式技术</p><p class="rubric laguage2"  >磁帶是一種很有前途的老式技術</p><img src="images/6001409e61cb411f9329b9bb_en_GB_0_quipimage.png" ></img><img src="images/6001409e61cb411f9329b9bb_zh_CN_0_quipimage.png" ></img><img src="images/6001409e61cb411f9329b9bb_zh_CN_0_quipimage.png" ></img><p class="mainpage laguage0">THE WHIRR of spooling magnetic tape is more likely to evoke feelings of nostalgia than technological awe. Yet tape remains important for data storage, with millions of kilometres of the stuff coiled up in the world’s data centres. Indirectly, says Mark Lantz of IBM, most computer users thus rely on tape every day.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-01-30T16:42:21+00:00</p><p class="fly_title laguage0"  >Data storage</p><p class="fly_title laguage1"  >数据存储</p><p class="fly_title laguage2"  >數據存儲</p><p class="title laguage0" >Re-record, not fade away</p><p class="title laguage1" >重录，还在</p><p class="title laguage2" >重錄，還在</p><p class="rubric laguage0"  >Magnetic tape is an old-fashioned technology with a promising future</p><p class="rubric laguage1"  >磁带是一种很有前途的老式技术</p><p class="rubric laguage2"  >磁帶是一種很有前途的老式技術</p><img class="laguage0" src="images/6001409e61cb411f9329b9bb_en_GB_0_quipimage.png" ></img><img class="laguage0"  src="images/6001409e61cb411f9329b9bb_zh_CN_0_quipimage.png" ></img><img class="laguage0"  src="images/6001409e61cb411f9329b9bb_zh_CN_0_quipimage.png" ></img><p class="mainpage laguage0">THE WHIRR of spooling magnetic tape is more likely to evoke feelings of nostalgia than technological awe. Yet tape remains important for data storage, with millions of kilometres of the stuff coiled up in the world’s data centres. Indirectly, says Mark Lantz of IBM, most computer users thus rely on tape every day.
         </p><p class="mainpage laguage1">磁带绕着卷轴转动的嗡嗡声唤起的可能更多是怀旧之情，而不是技术上的敬畏。不过磁带仍然是重要的数据存储介质，长达数百万公里的磁带盘绕在世界各地的数据中心里。IBM的马克·兰茨（Mark Lantz）说，所以大多数计算机用户每天都在间接依赖磁带。
         </p><p class="mainpage laguage2">磁帶繞着捲軸轉動的嗡嗡聲喚起的可能更多是懷舊之情，而不是技術上的敬畏。不過磁帶仍然是重要的數據存儲介質，長達數百萬公里的磁帶盤繞在世界各地的數據中心裡。IBM的馬克·蘭茨（Mark Lantz）說，所以大多數計算機用戶每天都在間接依賴磁帶。
       </p><p class="mainpage laguage0">Though tape may seem archaic, it is still getting better. In 2015 Dr Lantz’s team unveiled a version capable of squirrelling away 123 gigabytes per square inch (19Gb per square centimetre, but tapemakers still use Imperial units). In 2017 they reached 201Gb/in2. And on December 15th they revealed a design that has a density of 317Gb/in2. That rate of growth is unmatched by any of tape’s competitors.

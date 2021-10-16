@@ -4,7 +4,7 @@
 	
 }
 .laguage1{
-	display: none;
+	/*display: none;*/
 	
 }
 .laguage2{
@@ -12,7 +12,18 @@
 	
 }
 
+button{
+   width: 200;
+    height: 50;
+    margin: 15;
+    outline: none;
+    border: none;
+	
+}
+.lagBut{
+ 
 
+}
 .pubdate {
 	color: #b3b3b3;
 	margin-top: 2;

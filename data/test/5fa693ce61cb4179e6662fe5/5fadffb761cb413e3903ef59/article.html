@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2020-11-30T15:08:25+00:00</p><p class="fly_title laguage0"  >Venture capital</p><p class="fly_title laguage1"  >风险投资</p><p class="fly_title laguage2"  >風險投資</p><p class="title laguage0" >Frogs and princes</p><p class="title laguage1" >青蛙和王子</p><p class="title laguage2" >青蛙和王子</p><p class="rubric laguage0"  >More and more capital is chasing fewer and fewer ideas</p><p class="rubric laguage1"  >越来越多的资本追逐越来越少的点子【专题报道《资产管理》系列之三】</p><p class="rubric laguage2"  >越來越多的資本追逐越來越少的點子【專題報道《資產管理》系列之三】</p><p class="mainpage laguage0">WHO ARE the heirs of Robert Fleming, the 19th-century Scot who saw that America was the coming place to put risk capital? The venture capitalists of Silicon Valley have the best claim. The businesses that loom largest in public equity markets—Amazon, Apple, Facebook, Google, Tesla and the rest—were nurtured by VCs. Venture-backed companies account for around a fifth of the market capitalisation of public companies in America and almost half their research spending. The funds that unearth such gems stand to make pots of money. VCs have on average (an important qualifier) beaten the public market net of fees over the long run.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2020-11-30T15:08:25+00:00</p><p class="fly_title laguage0"  >Venture capital</p><p class="fly_title laguage1"  >风险投资</p><p class="fly_title laguage2"  >風險投資</p><p class="title laguage0" >Frogs and princes</p><p class="title laguage1" >青蛙和王子</p><p class="title laguage2" >青蛙和王子</p><p class="rubric laguage0"  >More and more capital is chasing fewer and fewer ideas</p><p class="rubric laguage1"  >越来越多的资本追逐越来越少的点子【专题报道《资产管理》系列之三】</p><p class="rubric laguage2"  >越來越多的資本追逐越來越少的點子【專題報道《資產管理》系列之三】</p><p class="mainpage laguage0">WHO ARE the heirs of Robert Fleming, the 19th-century Scot who saw that America was the coming place to put risk capital? The venture capitalists of Silicon Valley have the best claim. The businesses that loom largest in public equity markets—Amazon, Apple, Facebook, Google, Tesla and the rest—were nurtured by VCs. Venture-backed companies account for around a fifth of the market capitalisation of public companies in America and almost half their research spending. The funds that unearth such gems stand to make pots of money. VCs have on average (an important qualifier) beaten the public market net of fees over the long run.
         </p><p class="mainpage laguage1">19世纪的苏格兰人罗伯特·弗莱明（Robert Fleming）认为美国才是风险资本的好去处，谁继承了他的衣钵呢？最可能的人选是硅谷的风险投资家们。公开股票市场上规模最大的那些公司——亚马逊、苹果、Facebook、谷歌、特斯拉等——都是风险投资人培育出来的。由风险投资支持的公司约占美国上市公司市值的五分之一，研究支出则几乎占到了一半。挖掘出此类宝石的基金必然赚得盆满钵满。从长远来看，风投在除去费用后平均而言（这是个重要的修饰词）击败了公开市场。
         </p><p class="mainpage laguage2">19世紀的蘇格蘭人羅伯特·弗萊明（Robert Fleming）認為美國才是風險資本的好去處，誰繼承了他的衣缽呢？最可能的人選是硅谷的風險投資家們。公開股票市場上規模最大的那些公司——亞馬遜、蘋果、Facebook、谷歌、特斯拉等——都是風險投資人培育出來的。由風險投資支持的公司約佔美國上市公司市值的五分之一，研究支出則幾乎佔到了一半。挖掘出此類寶石的基金必然賺得盆滿缽滿。從長遠來看，風投在除去費用後平均而言（這是個重要的修飾詞）擊敗了公開市場。
       </p><p class="mainpage laguage0">Most firms that receive VC funding fail. But the winner-takes-all nature of technology markets means those that succeed often do so extravagantly. The VC industry is at the frontier of capital allocation. The typical investor has to kiss a lot of frogs to find a prince (or even a decent-looking frog). The average VC firm screens 200 targets, but makes only four investments, according to a study in the <i>Journal of Financial Economics</i>. Part of the added value, say its authors, is to improve the governance of startups and keep a watchful eye on management.

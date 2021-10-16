@@ -1,12 +1,32 @@
 <head><meta charset="UTF-8"></head><link href="../../style.css" rel="stylesheet"><head>
-		<script src="../../jquery-1.10.2.min.js"></script>
-		</head><button onclick="toggleText()">button</button>
-			<p id="Myid">Text</p>
-			<script>
-			function toggleText(){
-				$('.laguage0').show();
-			}
-			</script><p class="pubdate" >2021-05-06T05:04:09+00:00</p><p class="fly_title laguage0"  >Liquefied natural gas</p><p class="fly_title laguage1"  >液化天然气</p><p class="fly_title laguage2"  >液化天然氣</p><p class="title laguage0" >The polar silk road</p><p class="title laguage1" >极地丝路</p><p class="title laguage2" >極地絲路</p><p class="rubric laguage0"  >Warmer Arctic waters could turn the tides in LNG markets</p><p class="rubric laguage1"  >北极水域升温可能扭转LNG市场的形势</p><p class="rubric laguage2"  >北極水域升溫可能扭轉LNG市場的形勢</p><img src="images/607e863ac8ff5d6b255fbd0c_en_GB_0_quipimage.png" ></img><img src="images/607e863ac8ff5d6b255fbd0c_zh_CN_0_quipimage.png" ></img><img src="images/607e863ac8ff5d6b255fbd0c_zh_CN_0_quipimage.png" ></img><p class="mainpage laguage0">EXPLORERS TRIED for centuries to find a viable route through the Arctic to link Europe and Asia.<i> SS Vega</i> was the first to transit the north-east passage connecting the two, in 1879, but it was only in 1932 that a ship—the icebreaker <i>A. Sibiryakov</i>—made the trip in one go, without having to stop for the winter. What little commercial shipping there was along the route all but vanished after the fall of the Soviet Union.
+		<script src="../../jquery-3.6.0.min.js"></script>
+		</head>
+	 <button onclick="ShowLag01()">EN_CN</button>
+	 <button onclick="ShowLag0()">EN</button>
+	 <button onclick="ShowLag1()">CNS</button>
+	 <button onclick="ShowLag2()">CNT</button>
+	<script>
+	function ShowLag0(){
+		$('.laguage0').show();
+		$('.laguage1').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag1(){
+		$('.laguage1').show();
+		$('.laguage0').hide();
+		$('.laguage2').hide();
+	}
+		function ShowLag2(){
+		$('.laguage2').show();
+		$('.laguage1').hide();
+		$('.laguage0').hide();
+	}
+	function ShowLag01(){
+		$('.laguage2').hide();
+		$('.laguage1').show();
+		$('.laguage0').show();
+	}
+	</script><p class="pubdate" >2021-05-06T05:04:09+00:00</p><p class="fly_title laguage0"  >Liquefied natural gas</p><p class="fly_title laguage1"  >液化天然气</p><p class="fly_title laguage2"  >液化天然氣</p><p class="title laguage0" >The polar silk road</p><p class="title laguage1" >极地丝路</p><p class="title laguage2" >極地絲路</p><p class="rubric laguage0"  >Warmer Arctic waters could turn the tides in LNG markets</p><p class="rubric laguage1"  >北极水域升温可能扭转LNG市场的形势</p><p class="rubric laguage2"  >北極水域升溫可能扭轉LNG市場的形勢</p><img class="laguage0" src="images/607e863ac8ff5d6b255fbd0c_en_GB_0_quipimage.png" ></img><img class="laguage0"  src="images/607e863ac8ff5d6b255fbd0c_zh_CN_0_quipimage.png" ></img><img class="laguage0"  src="images/607e863ac8ff5d6b255fbd0c_zh_CN_0_quipimage.png" ></img><p class="mainpage laguage0">EXPLORERS TRIED for centuries to find a viable route through the Arctic to link Europe and Asia.<i> SS Vega</i> was the first to transit the north-east passage connecting the two, in 1879, but it was only in 1932 that a ship—the icebreaker <i>A. Sibiryakov</i>—made the trip in one go, without having to stop for the winter. What little commercial shipping there was along the route all but vanished after the fall of the Soviet Union.
         </p><p class="mainpage laguage1">几个世纪里，探险家试图找到一条穿越北极连接欧洲和亚洲的可行航线。1879年，织女星号（SS Vega）率先穿越了连接欧亚的东北航道，但中途不得不停下来过冬，直到1932年，西比里亚科夫号（<i>A. </i>Sibiryakov）破冰船才首次不间歇地完成航程。苏联解体后，这条航线上零星的商业航运也几乎完全消失了。
         </p><p class="mainpage laguage2">幾個世紀里，探險家試圖找到一條穿越北極連接歐洲和亞洲的可行航線。1879年，織女星號（SS Vega）率先穿越了連接歐亞的東北航道，但中途不得不停下來過冬，直到1932年，西比里亞科夫號（<i>A. </i>Sibiryakov）破冰船才首次不間歇地完成航程。蘇聯解體後，這條航線上零星的商業航運也幾乎完全消失了。
       </p><p class="mainpage laguage0">The discovery and extraction of vast liquefied natural gas (LNG) reserves on the Yamal peninsula in Siberia in the past decade has renewed interest in bulk transport on the waters of the high north. The warming of the Arctic, and the development of ice-strengthened tankers able to cleave their way through floes up to two metres thick, now make it possible to ship gas and other materials year-round, though especially cold winters may still hinder traffic.
@@ -18,7 +38,7 @@
       </p><p class="mainpage laguage0">The three ships were new Arc-7 class tankers, with engines running on the same gas contained in their hulls. This makes them far less polluting than conventional ships powered by bunker diesel. Russia is especially nervous about maritime accidents after the 1989 <i>Exxon Valdez</i> disaster in Alaska, which was difficult to clean up and caused extensive environmental damage. Russian lawmakers raged against Nornickel, a miner of metals, after a diesel spillage last year, whacking it with a fine of 146bn roubles ($2bn)—the biggest environmental penalty ever imposed on a Russian company. If the Arc-7 ships did run aground or get crushed in the ice, there would be next to no slick and their cargo of LNG would evaporate.
         </p><p class="mainpage laguage1">这三艘船都是新型Arc-7级油轮，它们的发动机使用的燃料正是船上装载的天然气，这使得它们的污染程度远小于使用船用柴油的传统船只。1989年埃克森·瓦尔迪兹号（Exxon Valdez）油轮在阿拉斯加发生海难，油污难以清理并造成广泛的环境破坏，自那以后俄罗斯对海上事故尤为紧张。去年金属矿业公司诺镍集团（Nornickel）发生了一起柴油泄漏事故，俄罗斯议员大为光火，对它开出了1460亿卢布（20亿美元）的罚单，创下有史以来俄罗斯企业环保罚金的最高记录。如果Arc-7级油轮搁浅或撞冰破裂，基本上不会产生浮油，船上装载的LNG只会挥发殆尽。
         </p><p class="mainpage laguage2">這三艘船都是新型Arc-7級油輪，它們的發動機使用的燃料正是船上裝載的天然氣，這使得它們的污染程度遠小於使用船用柴油的傳統船隻。1989年埃克森·瓦爾迪茲號（Exxon Valdez）油輪在阿拉斯加發生海難，油污難以清理並造成廣泛的環境破壞，自那以後俄羅斯對海上事故尤為緊張。去年金屬礦業公司諾鎳集團（Nornickel）發生了一起柴油泄漏事故，俄羅斯議員大為光火，對它開出了1460億盧布（20億美元）的罰單，創下有史以來俄羅斯企業環保罰金的最高記錄。如果Arc-7級油輪擱淺或撞冰破裂，基本上不會產生浮油，船上裝載的LNG只會揮發殆盡。
-      </p><img src="images/607e863ac8ff5d6b255fbd0c_en_GB_5_quipimage.png" ></img><img src="images/607e863ac8ff5d6b255fbd0c_zh_CN_5_quipimage.png" ></img><img src="images/607e863ac8ff5d6b255fbd0c_zh_CN_5_quipimage.png" ></img><p class="mainpage laguage0">Non-ferrous metals constitute some of the traffic along the Northern Sea Route (NSR), which runs from the Kara Sea to the Bering strait, but gas is fuelling the revival. And Novatek, which owns the LNG exploitation rights and infrastructure on the Yamal peninsula, is behind it.
+      </p><img class="laguage0" src="images/607e863ac8ff5d6b255fbd0c_en_GB_5_quipimage.png" ></img><img class="laguage0"  src="images/607e863ac8ff5d6b255fbd0c_zh_CN_5_quipimage.png" ></img><img class="laguage0"  src="images/607e863ac8ff5d6b255fbd0c_zh_CN_5_quipimage.png" ></img><p class="mainpage laguage0">Non-ferrous metals constitute some of the traffic along the Northern Sea Route (NSR), which runs from the Kara Sea to the Bering strait, but gas is fuelling the revival. And Novatek, which owns the LNG exploitation rights and infrastructure on the Yamal peninsula, is behind it.
         </p><p class="mainpage laguage1">在从喀拉海到白令海峡的北方海路（Northern Sea Route）上，有色金属占据了一部分运输量，但天然气才是这条航路复兴的主要驱动力。拥有亚马尔半岛LNG开采权和基础设施的诺瓦泰克是幕后推手。
         </p><p class="mainpage laguage2">在從喀拉海到白令海峽的北方海路（Northern Sea Route）上，有色金屬佔據了一部分運輸量，但天然氣才是這條航路復興的主要驅動力。擁有亞馬爾半島LNG開採權和基礎設施的諾瓦泰克是幕後推手。
       </p><p class="mainpage laguage0">Vladimir Putin’s government provided a leg-up to Novatek, including through generous tax breaks. These have accelerated Russia’s LNG capabilities. Novatek used to rely on Japanese expertise to extract and compress gas in the extreme Arctic conditions. “Now Russia is fully self-sufficient in LNG technology,” says Alexander Sergunin of St Petersburg State University.
