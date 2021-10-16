@@ -96,9 +96,9 @@ def writePage(lag,f,root):
 				if img[lag].text!=None:
 					text="<img class=\"laguage0\" src=\""+ img[0].text+"\" ></img>"
 					f.write(text)
-					text="<img class=\"laguage0\"  src=\""+ img[1].text+"\" ></img>"
+					text="<img class=\"laguage1\"  src=\""+ img[1].text+"\" ></img>"
 					f.write(text)
-					text="<img class=\"laguage0\"  src=\""+ img[2].text+"\" ></img>"
+					text="<img class=\"laguage2\"  src=\""+ img[2].text+"\" ></img>"
 					f.write(text)
 		if pag!=None :
 			if len(pag)==3:
