@@ -13,35 +13,52 @@ nameDic={}
 def writePage(lag,f,root):
 
 	f.write("<head><meta charset=\"UTF-8\"></head>")
+
+
 	link= "<link href=\"style.css\" rel=\"stylesheet\">"
 	link= "<link href=\"../../style.css\" rel=\"stylesheet\">"
 
+	link+="""<head>
+		<script src="../../jquery-1.10.2.min.js"></script>
+		</head>"""
+
+	link+='''<button onclick="toggleText()">button</button>
+			<p id="Myid">Text</p>
+			<script>
+			function toggleText(){
+				$('.laguage0').show();
+			}
+			</script>'''
 
 	# f.write("<div class=\"mainLeft\" ></div>")
 	# f.write("<div ></div>")
 	# f.write("<div class=\"mainMid\" >")
 
 	f.write(link)
+	
 	pubdate=root.find('pubdate').text
-	title=root.find('headline').findall('title')[lag].text
-	fly_title=root.find('headline').findall('fly_title')[lag].text
-	rubric=root.find('body').findall('rubric')[lag].text
+	title0=root.find('headline').findall('title')[0].text
+	title1=root.find('headline').findall('title')[1].text
+	title2=root.find('headline').findall('title')[2].text
+	fly_title0=root.find('headline').findall('fly_title')[0].text
+	fly_title1=root.find('headline').findall('fly_title')[1].text
+	fly_title2=root.find('headline').findall('fly_title')[2].text
+	rubric0=root.find('body').findall('rubric')[0].text
+	rubric1=root.find('body').findall('rubric')[1].text
+	rubric2=root.find('body').findall('rubric')[2].text
 
-	head="<p class=\"pubdate\" >"+ pubdate +"</p>"
-	f.write(head)
 
 
-	head="<p class=\"fly_title\"  >"+ fly_title +"</p>"
-
-	f.write(head)
-
-	head="<p class=\"title\" >"+ title +"</p>"
-
-	f.write(head)
-
-	head="<p class=\"rubric\"  >"+ rubric +"</p>"
-
-	f.write(head)
+	f.write("<p class=\"pubdate\" >"+ pubdate +"</p>")
+	f.write("<p class=\"fly_title laguage0\"  >"+ fly_title0 +"</p>")
+	f.write("<p class=\"fly_title laguage1\"  >"+ fly_title1 +"</p>")
+	f.write("<p class=\"fly_title laguage2\"  >"+ fly_title2 +"</p>")
+	f.write("<p class=\"title laguage0\" >"+ title0 +"</p>")
+	f.write("<p class=\"title laguage1\" >"+ title1 +"</p>")
+	f.write("<p class=\"title laguage2\" >"+ title2 +"</p>")
+	f.write("<p class=\"rubric laguage0\"  >"+ rubric0 +"</p>")
+	f.write("<p class=\"rubric laguage1\"  >"+ rubric1 +"</p>")
+	f.write("<p class=\"rubric laguage2\"  >"+ rubric2 +"</p>")
 
 
 
@@ -54,18 +71,24 @@ def writePage(lag,f,root):
 			if  len(img)==3:
 				# print (img[lag].text)
 				if img[lag].text!=None:
-					text="<img src=\""+ img[lag].text+"\" ></img>"
+					text="<img src=\""+ img[0].text+"\" ></img>"
+					f.write(text)
+					text="<img src=\""+ img[1].text+"\" ></img>"
+					f.write(text)
+					text="<img src=\""+ img[2].text+"\" ></img>"
 					f.write(text)
 		if pag!=None :
 			if len(pag)==3:
 				# print (pag)
 				if pag[lag].text!=None:
-					# print(ET.tostring(child, encoding='unicode'))
 					# pag[lag].text
 					# encode(encoding='UTF-8',errors='strict')
-					# print("===="+pag[lag].text)
-					text=u"<p class=\"mainpage\">" + pag[lag].text+u"</p>"
-					f.write(text)
+					pag0=ET.tostring(pag[0], encoding='unicode').replace("</copy>","").replace("<copy lang=\"en_GB\">","").replace("<copy lang=\"zh_CN\">","").replace("<copy lang=\"zh_TW\">","")
+					pag1=ET.tostring(pag[1], encoding='unicode').replace("</copy>","").replace("<copy lang=\"en_GB\">","").replace("<copy lang=\"zh_CN\">","").replace("<copy lang=\"zh_TW\">","")
+					pag2=ET.tostring(pag[2], encoding='unicode').replace("</copy>","").replace("<copy lang=\"en_GB\">","").replace("<copy lang=\"zh_CN\">","").replace("<copy lang=\"zh_TW\">","")
+					f.write(u"<p class=\"mainpage laguage0\">" + pag0+u"</p>")
+					f.write(u"<p class=\"mainpage laguage1\">" + pag1+u"</p>")
+					f.write(u"<p class=\"mainpage laguage2\">" + pag2+u"</p>")
 
 	line="<p class=\"line\"  ></p>"
 	f.write(line)
@@ -77,8 +100,6 @@ def writePage(lag,f,root):
 def writePageHead(lag,f,root,floder,mainName):
 
 	f.write("<head><meta charset=\"UTF-8\"></head>")
-
-
 
 	# f.write("<div class=\"mainLeft\" ></div>")
 	# f.write("<div ></div>")
@@ -100,25 +121,27 @@ def writePageHead(lag,f,root,floder,mainName):
 
 	f.write("<div class=\"titleR\">")
 	pubdate=root.find('pubdate').text
-	title=root.find('headline').findall('title')[lag].text
-	fly_title=root.find('headline').findall('fly_title')[lag].text
-	rubric=root.find('body').findall('rubric')[lag].text
+	title0=root.find('headline').findall('title')[0].text
+	title1=root.find('headline').findall('title')[1].text
+	title2=root.find('headline').findall('title')[2].text
+	fly_title0=root.find('headline').findall('fly_title')[0].text
+	fly_title1=root.find('headline').findall('fly_title')[1].text
+	fly_title2=root.find('headline').findall('fly_title')[2].text
+	rubric0=root.find('body').findall('rubric')[0].text
+	rubric1=root.find('body').findall('rubric')[1].text
+	rubric2=root.find('body').findall('rubric')[1].text
 
-	head="<p class=\"pubdateIndex\" >"+ pubdate +"</p>"
-	f.write(head)
-
-
-	head="<p class=\"fly_titleIndex\"  >"+ fly_title +"</p>"
-
-	f.write(head)
-
-	head="<p class=\"titleIndex\" ><a href=\""+floder+"article.html\" class=\"titleIndex\" >"+ title +"</a></p>"
-
-	f.write(head.replace('\\',"/"))
-
-	head="<p class=\"rubricIndex\"  >"+ rubric +"</p>"
-
-	f.write(head)
+	
+	f.write("<p class=\"pubdateIndex \" >"+ pubdate +"</p>")
+	f.write("<p class=\"fly_titleIndex laguage0\"  >"+ fly_title0 +"</p>")
+	f.write("<p class=\"fly_titleIndex laguage1\"  >"+ fly_title1 +"</p>")
+	f.write("<p class=\"fly_titleIndex laguage2\"  >"+ fly_title2 +"</p>")
+	f.write(("<p class=\"titleIndex laguage0\" ><a href=\""+floder+"article.html\" class=\"titleIndex\" >"+ title0 +"</a></p>").replace('\\',"/"))
+	f.write(("<p class=\"titleIndex laguage1\" ><a href=\""+floder+"article.html\" class=\"titleIndex\" >"+ title1 +"</a></p>").replace('\\',"/"))
+	f.write(("<p class=\"titleIndex laguage2\" ><a href=\""+floder+"article.html\" class=\"titleIndex\" >"+ title2 +"</a></p>").replace('\\',"/"))
+	f.write("<p class=\"rubricIndex laguage0\"  >"+ rubric0 +"</p>")
+	f.write("<p class=\"rubricIndex laguage1\"  >"+ rubric1 +"</p>")
+	f.write("<p class=\"rubricIndex laguage2\"  >"+ rubric2 +"</p>")
 
 	f.write("</div>")
 
@@ -148,8 +171,6 @@ def createPage(p,filePath,findex,mainName):
 
 		ff=open(p.replace("xml","html"),'w',encoding='utf-8');
 		writePage(1,ff,roott)
-		writePage(0,ff,roott)
-		writePage(2,ff,roott)
 		# floder="articles/"+os.path.split(p)[0].replace(filePath,"")+"/"
 		floder=os.path.split(p)[0]+"/"
 		print(floder)
@@ -173,6 +194,18 @@ def createPageLag(p,filePath,findex,mainName,lag):
 def convent(filePath,main_index):
 	findex=open(""+filePath+"_index.html",'w',encoding='utf-8');
 	link= "<link href=\"style.css\" rel=\"stylesheet\">"
+
+	link+="""<head>
+		<script src="jquery-1.10.2.min.js"></script>
+		</head>"""
+
+	link+='''<button onclick="toggleText()">button</button>
+			<p id="Myid">Text</p>
+			<script>
+			function toggleText(){
+				$('.laguage0').show();
+			}
+			</script>'''
 	findex.write(link)
 
 
@@ -193,23 +226,23 @@ def convent(filePath,main_index):
 			if  "article.xml" in f and "._article.xml" not in f and "images" not in root: 
 				print (old_path)
 				createPageLag(old_path,filePath,findex,filePath+"_index.html",1)
-	findex.write("<p class=\"line\"  ></p>")
+	# findex.write("<p class=\"line\"  ></p>")
 
-	for (root, dirs, files) in os.walk(filePath):
-		for f in files:
-			(shotname, extension) = os.path.splitext(f)
-			old_path = os.path.join(root, f)
-			if  "article.xml" in f and "._article.xml" not in f and "images" not in root: 
-				print (old_path)
-				createPageLag(old_path,filePath,findex,filePath+"_index.html",0)
-	findex.write("<p class=\"line\"  ></p>")
-	for (root, dirs, files) in os.walk(filePath):
-		for f in files:
-			(shotname, extension) = os.path.splitext(f)
-			old_path = os.path.join(root, f)
-			if  "article.xml" in f and "._article.xml" not in f and "images" not in root: 
-				print (old_path)
-				createPageLag(old_path,filePath,findex,filePath+"_index.html",2)
+	# for (root, dirs, files) in os.walk(filePath):
+	# 	for f in files:
+	# 		(shotname, extension) = os.path.splitext(f)
+	# 		old_path = os.path.join(root, f)
+	# 		if  "article.xml" in f and "._article.xml" not in f and "images" not in root: 
+	# 			print (old_path)
+	# 			createPageLag(old_path,filePath,findex,filePath+"_index.html",0)
+	# findex.write("<p class=\"line\"  ></p>")
+	# for (root, dirs, files) in os.walk(filePath):
+	# 	for f in files:
+	# 		(shotname, extension) = os.path.splitext(f)
+	# 		old_path = os.path.join(root, f)
+	# 		if  "article.xml" in f and "._article.xml" not in f and "images" not in root: 
+	# 			print (old_path)
+	# 			createPageLag(old_path,filePath,findex,filePath+"_index.html",2)
 	findex.close()
 
 
@@ -219,7 +252,18 @@ def BatchConvent():
 	main_index.write("<link href=\"style.css\" rel=\"stylesheet\">")
 	main_index.write("<head><meta charset=\"UTF-8\"></head>")
 
+	link="""<head>
+		<script src="jquery-1.10.2.min.js"></script>
+		</head>"""
 
+	link+='''<button onclick="toggleText()">button</button>
+			<p id="Myid">Text</p>
+			<script>
+			function toggleText(){
+				$('.laguage0').show();
+			}
+			</script>'''
+	main_index.write(link)
 
 	for s in os.listdir("."):
 		if len(s)>20 and os.path.isdir(s):
@@ -248,8 +292,6 @@ def BatchConvent():
 			main_index.write(text.replace('\\',"/"))
 			main_index.write("<p class=\"fly_titleIndex\"  >"+ datename +"</p>")
 			main_index.write("</a>")
-
-
 	main_index.close()	
 						
 BatchConvent()
